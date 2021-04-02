@@ -1,0 +1,38 @@
+---
+layout: blog
+title: News
+---
+<div class="news">
+    <div class="hero light-background">
+        <div class="container">
+            <h1 class="heading">News</h1>
+        </div>
+    </div>
+    <div class="med-background">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="events">
+                        <h2>Upcoming Events</h2>
+                        <ul>
+                            {% for event in site.data.events.upcoming_events %}
+                            <li>{{ event.name }}, {{ event.date }}, {{ event.loc }}</li>
+                            {% endfor %}
+                        </ul>
+                        <h2>Past Events</h2>
+                        <ul>
+                            {% for event in site.data.events.past_events %}
+                            <li><a href="{{ event.link }}">{{ event.name }}</a>, {{ event.date }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 d-flex align-items-start flex-column justify-content-center">
+                    <div class="photo-frame">
+                        <img src="{{ site.baseurl }}/assets/images/2020-2021/mythpumpkins2020/mythss11.jpg" width="100%" height="auto" alt="Myth Pumpkins">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

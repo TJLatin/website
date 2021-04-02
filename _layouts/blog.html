@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div class="blog">
+    {{ content }}
+
+    <div class="light-background">
+        <div class="container">
+            <h2 class="heading">Stories</h2>
+            {% assign posts = site.posts %}
+
+            {%- if posts.size > 0 -%}
+            <ul class="post-list">
+                {%- assign date_format = "%b. %-d, %Y" -%}
+                {%- for post in posts -%}
+                <li>
+                    <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                    <span class="post-meta">{{ post.date | date: date_format }} by <a
+                            href="{{ site.baseurl }}/officers{{ post.author_url }}.html">{{ post.author }}</a></span>
+                    {%- if site.show_excerpts -%}
+                    {{ post.excerpt }}
+                    {%- endif -%}
+                </li>
+                {%- endfor -%}
+            </ul>
+
+            <!-- pagination disaster but if someone wants to ever look into it here's the source -->
+            {% if site.paginate %}
+            <div class="pager">
+                <ul class="pagination">
+                    {%- if paginator.previous_page %}
+                    <li><a href="{{ site.baseurl }}{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{
+                            paginator.previous_page }}</a></li>
+                    {%- else %}
+                    <li>
+                        <div class="pager-edge">•</div>
+                    </li>
+                    {%- endif %}
+                    <li>
+                        <div class="current-page">{{ paginator.page }}</div>
+                    </li>
+                    {%- if paginator.next_page %}
+                    <li><a href="{{ site.baseurl }}{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page
+                            }}</a></li>
+                    {%- else %}
+                    <li>
+                        <div class="pager-edge">•</div>
+                    </li>
+                    {%- endif %}
+                </ul>
+            </div>
+            {%- endif %}
+
+            {%- endif -%}
+        </div>
+    </div>
+
+</div>

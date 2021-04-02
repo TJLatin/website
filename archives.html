@@ -1,0 +1,28 @@
+---
+layout: default
+title: Archives
+---
+<div class="archives">
+    <div class="hero light-background">
+        <div class="container">
+            <h1 class="heading">Archives</h1>
+        </div>
+    </div>
+    <div class="light-background">
+        <div class="container">
+            <div class="row">
+                {% for page in site.data.archives %}
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card shadow h-100">
+                        <a class="card-link" href="{{ site.baseurl }}/archives/{{ page.year }}.html">
+                            <div class="card-body">
+                                <h2 class="card-title">{{ page.year }}</h5>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
