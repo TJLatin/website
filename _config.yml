@@ -1,14 +1,10 @@
 title: TJ Latin
 description: >- 
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/latin" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+  Welcome to TJ Latin! We're TJ's best community, full of passionate students that can't wait to share the world of Classics with others.
+baseurl: "/latin"
 
 show_excerpts: true
 
-# Build settings
 plugins:
   - jekyll-feed
 
@@ -40,35 +36,28 @@ collections:
 defaults:
   - scope:
       path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
       type: "officers"
     values:
       layout: "officer"
+      nav: "/about.html"
   - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
+      nav: "/news.html"
+  - scope:
+      path: "archives"
+      type: "pages"
+    values:
+      layout: "archive"
+      nav: "/archives.html"
   - scope:
       path: ""
     values:
       layout: "default"
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

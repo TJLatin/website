@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "New TJ Latin Website Launched"
 author: Anna Hsu
 author_url: anna-hsu

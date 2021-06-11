@@ -1,9 +1,24 @@
 upcoming_events:
-  - name: Rome's Birthday
-    date: Apr. 21
-    loc: LHS Google Meet
 
 past_events:
+  - name: Awards Pick-Up
+    date: Jun. 2
+    link: none
+  - name: Certamen Round-Up
+    date: May 28
+    link: https://drive.google.com/drive/folders/1uRwggeYHcTV8lAEU4Ok1MtObPE6NoGKQ?usp=sharing
+  - name: National Convention Meeting
+    date: May 26
+    link: none
+  - name: Latina Loquenda
+    date: May 26
+    link: none
+  - name: In-House Certamen
+    date: May 1
+    link: https://drive.google.com/drive/folders/1uRwggeYHcTV8lAEU4Ok1MtObPE6NoGKQ?usp=sharing
+  - name: Rome's Birthday
+    date: Apr. 21
+    link: https://drive.google.com/drive/folders/1uRwggeYHcTV8lAEU4Ok1MtObPE6NoGKQ?usp=sharing
   - name: Roman Military Guest Speaker
     date: Mar. 24
     link: https://drive.google.com/drive/folders/1XuFd1VnhfG-1apo_JBjmHkkmQjI2TsdG?usp=sharing

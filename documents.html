@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Documents
+nav: /documents.html
 ---
 <div class="documents">
     <div class="hero light-background">
@@ -10,22 +10,74 @@ title: Documents
     </div>
     <div class="light-background">
         <div class="container">
-            <h2>Convention</h2>
-            <p>This year's state convention has concluded and it was a blast! Take a look below at our wonderful performance in academics and the arts.</p>
-            <h3>Academic Awards</h3>
-            <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=1952573014&single=true">https://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=1952573014&single=true</a></p>
-            <h3>Creative Arts Awards</h3>
-            <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=1198741674&single=true">https://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=1198741674&single=true</a></p>
-            <h3>Graphic Arts Awards</h3>
-            <p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=571078070&single=true">https://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=571078070&single=true</a></p>
+            <p>Here's where all of our important documents are stored &mdash; from meeting minutes to our publications
+                to convention information, you'll find everything you need at this stop.</p>
+        </div>
+    </div>
+    <div class="med-background">
+        <div class="container">
+            <h2 class="heading">VJCL Convention</h2>
+            <p>This year's state convention has concluded and it was a blast! Take a look below at our wonderful
+                performance in academics and the arts. You can also revisit the <a
+                    href="https://docs.google.com/presentation/d/1sK_CQMR_KbLAdAEGm80IVhcBoEnmwi4xyL58m9eyb7Q/edit#slide=id.p">Convention
+                    Round-Up presentation</a> brought to you by our officers for a full summary of our annual sweep.</p>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 my-3">
+                    <div class="card shadow h-100">
+                        <a
+                            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=1952573014&single=true">
+                            <div class="card-body">
+                                <h3 class="card-title">Academic Awards</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 my-3">
+                    <div class="card shadow h-100">
+                        <a
+                            href="ttps://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=1198741674&single=true">
+                            <div class="card-body">
+                                <h3 class="card-title">Creative Arts Awards</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 my-3">
+                    <div class="card shadow h-100">
+                        <a
+                            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=571078070&single=true">
+                            <div class="card-body">
+                                <h3 class="card-title">Graphic Arts Awards</h3>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="light-background">
         <div class="container">
-            <h2>Minutes</h2>
-            <p>Click <a href="https://drive.google.com/drive/u/0/folders/1ZcVOFcsg2WLoLQadNFYjF77F8K1PXoSR"
-                    target="_blank">here</a> for the minutes of all our meetings.</p>
-            <h2>Scribe</h2>
+            <h2 class="heading">Minutes</h2>
+            <div class="row">
+                {%- assign date_format = "%b %-d" -%}
+                {% for document in site.data.minutes %}
+                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
+                    <div class="card shadow h-100">
+                        <a href="{{ document.url }}">
+                            <div class="card-body">
+                                <h3 class="card-title">{{ document.name }}</h3>
+                                <span>{{ document.date | date: date_format }}</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <div class="med-background">
+        <div class="container">
+            <h2 class="heading">Scribe</h2>
             <p>Coming soon!</p>
         </div>
     </div>
