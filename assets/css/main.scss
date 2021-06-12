@@ -119,15 +119,12 @@ nav {
   background-color: $light;
 }
 
-.navbar-brand {
-  @include no-select;
-  margin-right: 30px;
-  box-shadow: none;
-  padding: 0px;
-  transition: none;
-}
-.navbar-brand:hover {
-  background: none;
+.nav-logo {
+  @include no-link-styling;
+  .navbar-brand {
+    @include no-select;
+    margin-right: 30px;
+  }
 }
 
 .navbar-nav {

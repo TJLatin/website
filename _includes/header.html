@@ -1,7 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/images/logo/lhslong.png"
-                alt="TJ Latin" width="auto" height="40px"></a>
+        <div class="nav-logo">
+            <a class="navbar-brand" href="{{ site.baseurl }}/"><img
+                    src="{{ site.baseurl }}/assets/images/logo/lhslong.png" alt="TJ Latin" width="auto"
+                    height="40px"></a>
+        </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -9,7 +12,8 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar-nav">
                 {% for link in site.data.navigation %}
-                <a class="{% if link.url == page.nav %}active{% endif %} nav-item nav-link" href="{{ site.baseurl }}{{ link.url }}">{{
+                <a class="{% if link.url == page.nav %}active{% endif %} nav-item nav-link"
+                    href="{{ site.baseurl }}{{ link.url }}">{{
                     link.name }}</a>
                 {% endfor %}
             </div>
