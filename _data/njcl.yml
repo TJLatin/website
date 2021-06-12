@@ -1,0 +1,32 @@
+- name: NJCL Convention Website
+  description: Here you'll find the generic website for Convention.
+  url: https://www.njcl.org/NJCL-Convention/2021-NJCL-Convention
+- name: NJCL Convention Fax
+  description: >-
+    This is the most important document we have so far for Convention &mdash; it contains the
+    link for registration, tentative schedule, competitions, etc. for Convention. Make sure to read the Code of Conduct beforehand!
+  url: https://www.njcl.org/Portals/1/NJCL%20Virtual%20Convention%20FAX%202021%20(3).pdf
+- name: Registration
+  description: Visit ACL's website to register for Convention and pay the $90 fee.
+  url: https://www.aclclassics.org/Login?returnurl=%2fJoin-ACL%2fACL-Customer-Dashboard
+- name: Tentative Event Schedule
+  description: Although it's still getting sorted out, you can view the tentative schedule for contests and events.
+  url: https://docs.google.com/document/d/1NTSe38PLFiYBsy_E7vDJeLjzmsuEXKfRAZrb1Aj8l0k/edit?usp=sharing
+- name: Certamen
+  description: If you're interested in playing any sort of Certamen at Nats, talk to the Reges. They'll be able to help you out!
+  url: mailto:tjcertamen@gmail.com
+- name: Creative Arts Contests
+  description: Submissions are due by 11:59PM on Jul. 5.
+  url: https://docs.google.com/document/d/11dMXEhZslgVpYKtvC6LWOyHQCtRxemarCllI6SfGKqc/edit?usp=sharing
+- name: Graphic Arts Contests
+  description: Submissions are due by 11:59PM on Jul. 5. Submissions for Graphic Arts are not following the state "portfolio" guidelines, so you may submit artwork for 1 category or 9!
+  url: https://docs.google.com/document/d/1DZEM5OQQnTSW8IWpGOMteqUID2foMZqvY46Nnql5DzA/edit?usp=sharing
+- name: E-lympika
+  description: Your Domina Telae has no idea how this works.
+  url: https://docs.google.com/document/d/1ET6yYTmL__Jvh-k2XNuG4Me3lXm4d1Lvf0iPw7340cg/edit?usp=sharing
+- name: That's Entertainment!
+  description: Convention's talent show is back! Submit your videos by 11:59PM Jul. 16.
+  url: https://docs.google.com/document/d/1cL5cMpV1btCt-A0Hz6LgpEaeN08adit3BlkbcGCCyLY/edit?usp=sharing
+- name: Spirit and Service Information
+  description: Find out more on two of the most important parts of Convention.
+  url: https://docs.google.com/document/d/1xZAfRCecxhyQ0MRpJLhIjZHiZ6Dx_BJIH-AHQcFhUHU/edit?usp=sharing

@@ -25,11 +25,16 @@ layout: default
     <div class="light-background">
         <div class="container">
             <h2>Posts</h2>
-            <ul>
+            <ul class="post-list">
+                {%- assign date_format = "%b. %-d, %Y" -%}
                 {% assign filtered_posts = site.posts | where: 'author', page.name %}
-                {% for post in filtered_posts %}
-                <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
+                {%- for post in filtered_posts -%}
+                <li>
+                    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}, {{ post.date | date: date_format }}</a>
+                </li>
+                {% else %}
+                <li>No posts available.</li>
+                {%- endfor -%}
             </ul>
         </div>
     </div>

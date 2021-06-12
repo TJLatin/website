@@ -14,71 +14,50 @@ nav: /documents.html
                 to convention information, you'll find everything you need at this stop.</p>
         </div>
     </div>
-    <div class="med-background">
+    <div class="light-container">
         <div class="container">
-            <h2 class="heading">VJCL Convention</h2>
-            <p>This year's state convention has concluded and it was a blast! Take a look below at our wonderful
-                performance in academics and the arts. You can also revisit the <a
-                    href="https://docs.google.com/presentation/d/1sK_CQMR_KbLAdAEGm80IVhcBoEnmwi4xyL58m9eyb7Q/edit#slide=id.p">Convention
-                    Round-Up presentation</a> brought to you by our officers for a full summary of our annual sweep.</p>
             <div class="row">
-                <div class="col-md-4 col-sm-6 my-3">
+                <div class="col-sm-6 my-3">
                     <div class="card shadow h-100">
-                        <a
-                            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=1952573014&single=true">
+                        <a class="card-link" href="{{ site.baseurl }}/documents/njcl.html">
                             <div class="card-body">
-                                <h3 class="card-title">Academic Awards</h3>
+                                <h2 class="card-title">NJCL Convention</h2>
+                                <p class="card-text">Here's the place where you can keep track of all of the pertinent documents and links for Virtual Convention.</p>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 my-3">
+                <div class="col-sm-6 my-3">
                     <div class="card shadow h-100">
-                        <a
-                            href="ttps://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=1198741674&single=true">
+                        <a class="card-link" href="{{ site.baseurl }}/documents/vjcl.html">
                             <div class="card-body">
-                                <h3 class="card-title">Creative Arts Awards</h3>
+                                <h2 class="card-title">VJCL Convention</h2>
+                                <p class="card-text">This year's state convention has concluded and it was a blast! Find out how well we performed in academics, Creative Arts, and Graphic Arts.</p>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 my-3">
+                <div class="col-sm-6 my-3">
                     <div class="card shadow h-100">
-                        <a
-                            href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQi69VAN7k2nRClBL51m-ud9spylp3ARRgxxCVd0yWAcVteJbxQ1VyFg7CpHGoUanFMfb-KqFrEzIs_/pubhtml?gid=571078070&single=true">
+                        <a class="card-link" href="{{ site.baseurl }}/documents/minutes.html">
                             <div class="card-body">
-                                <h3 class="card-title">Graphic Arts Awards</h3>
+                                <h2 class="card-title">Minutes</h2>
+                                <p class="card-text">View our meeting minutes, created by our Censor.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 my-3">
+                    <div class="card shadow h-100">
+                        <a class="card-link" href="{{ site.baseurl }}/documents/scribe.html">
+                            <div class="card-body">
+                                <h2 class="card-title">Scribe</h2>
+                                <p class="card-text">Read our award-winning publication, produced by our Auctor.</p>
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="light-background">
-        <div class="container">
-            <h2 class="heading">Minutes</h2>
-            <div class="row">
-                {%- assign date_format = "%b %-d" -%}
-                {% for document in site.data.minutes %}
-                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
-                    <div class="card shadow h-100">
-                        <a href="{{ document.url }}">
-                            <div class="card-body">
-                                <h3 class="card-title">{{ document.name }}</h3>
-                                <span>{{ document.date | date: date_format }}</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    <div class="med-background">
-        <div class="container">
-            <h2 class="heading">Scribe</h2>
-            <p>Coming soon!</p>
         </div>
     </div>
 </div>
