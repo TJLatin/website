@@ -120,6 +120,7 @@ nav {
 }
 
 .navbar-brand {
+  @include no-select;
   margin-right: 30px;
   box-shadow: none;
   padding: 0px;
@@ -131,6 +132,7 @@ nav {
 
 .navbar-nav {
   @include no-link-styling;
+  @include no-select;
   a {
     font-weight: 350;
     color: $dark !important;
@@ -184,6 +186,7 @@ nav {
 
 .footer {
   @include no-link-styling;
+  @include no-select;
   flex-shrink: 0;
   a {
     color: $light;
