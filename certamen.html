@@ -13,21 +13,20 @@ nav: /certamen.html
             <p>For study materials and more information, visit <a href="https://virginiajcl.org/certamen.html"
                     target="_blank">https://virginiajcl.org/certamen.html</a> and <a
                     href="https://www.njcl.org/NJCL-Convention/Convention-Contests/Certamen"
-                    target="_blank">https://www.njcl.org/NJCL-Convention/Convention-Contests/Certamen</a>.</p>
+                    target="_blank">https://www.njcl.org/NJCL-Convention/Convention-Contests/Certamen</a>, or contact
+                the Reges at <a href="mailto:tjcertamen@gmail.com">tjcertamen@gmail.com</a>.</p>
         </div>
     </div>
     <div class="light-background">
         <div class="container">
             <div class="u-certamen">
                 <h2>Upcoming Certamina</h2>
-                <div class="row">
+                <div class="card-container">
                     {% for event in site.data.certamen.upcoming_certamina %}
-                    <div class="col-lg-3 col-md-4 col-sm-6 my-3">
-                        <div class="card border-0 shadow h-100">
-                            <div class="card-body">
-                                <h3 class="card-title mb-0">{{ event.name }}</h3>
-                                <p class="card-text">{{ event.date }}</p>
-                            </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">{{ event.name }}</h3>
+                            <span>{{ event.date }}</span>
                         </div>
                     </div>
                     {% endfor %}
@@ -39,14 +38,12 @@ nav: /certamen.html
         <div class="container">
             <div class="p-certamen">
                 <h2>Past Certamina</h2>
-                <div class="row">
+                <div class="card-container">
                     {% for event in site.data.certamen.past_certamina reversed %}
-                    <div class="col-lg-3 col-md-4 col-sm-6 my-3">
-                        <div class="card border-0 shadow h-100">
-                            <div class="card-body">
-                                <h3 class="card-title mb-0">{{ event.name }}</h3>
-                                <p class="card-text">{{ event.date }}</p>
-                            </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">{{ event.name }}</h3>
+                            <span>{{ event.date }}</span>
                         </div>
                     </div>
                     {% endfor %}

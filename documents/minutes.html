@@ -10,18 +10,16 @@ nav: /documents.html
     </div>
     <div class="light-background">
         <div class="container">
-            <div class="row">
+            <div class="card-container">
                 {%- assign date_format = "%b %-d" -%}
                 {% for document in site.data.minutes %}
-                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
-                    <div class="card shadow h-100">
-                        <a href="{{ document.url }}">
-                            <div class="card-body">
-                                <h3 class="card-title">{{ document.name }}</h3>
-                                <span>{{ document.date | date: date_format }}</span>
-                            </div>
-                        </a>
-                    </div>
+                <div class="card">
+                    <a href="{{ document.url }}">
+                        <div class="card-body">
+                            <h3 class="card-title">{{ document.name }}</h3>
+                            <span>{{ document.date | date: date_format }}</span>
+                        </div>
+                    </a>
                 </div>
                 {% endfor %}
             </div>

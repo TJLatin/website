@@ -18,19 +18,18 @@ nav: /documents.html
                 you'll be able to participate. Additionally, a week before Convention, you'll receive a link via email
                 to Sched, where you'll be able to select the events you wish to attend and locate their respective Zoom
                 links.</p>
-            <p>Contact an officer, the Magistrae, or the listed emails on the linked documents if you have questions.</p>
+            <p>Contact an officer, the Magistrae, or the listed emails on the linked documents if you have questions.
+            </p>
             <p><strong>Last updated: Jun. 12, 2021.</strong></p>
-            <div class="row">
+            <div class="med-card-container">
                 {% for document in site.data.njcl %}
-                <div class="col-md-4 col-sm-6 my-3">
-                    <div class="card shadow h-100">
-                        <a href="{{ document.url }}">
-                            <div class="card-body">
-                                <h3 class="card-title">{{ document.name }}</h3>
-                                <p class="card-text">{{ document.description }}</p>
-                            </div>
-                        </a>
-                    </div>
+                <div class="card">
+                    <a href="{{ document.url }}">
+                        <div class="card-body">
+                            <h3 class="card-title">{{ document.name }}</h3>
+                            <p>{{ document.description }}</p>
+                        </div>
+                    </a>
                 </div>
                 {% endfor %}
             </div>

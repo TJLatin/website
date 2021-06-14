@@ -1,20 +1,32 @@
 ---
+layout: default
 title: Archives
 nav: /archives.html
 ---
 <div class="archives">
     <div class="light-background">
         <div class="container">
-            <div class="row">
+            <h1 class="heading">Archives</h1>
+        </div>
+    </div>
+    <div class="light-background">
+        <div class="container">
+            <p>Take a blast into the past through our archives, dating back to 2012. Although TJ Latin was founded long
+                before, any memories remaining from those days can only be found in the hearts of those present or via a
+                time machine. If you have any photos or documents you'd like to contribute to the archives, please <a
+                    href="{{ site.baseurl }}/contact.html">contact us</a>.</p>
+        </div>
+    </div>
+    <div class="light-background">
+        <div class="container">
+            <div class="card-container">
                 {% for page in site.data.archives %}
-                <div class="col-lg-3 col-md-4 col-sm-6 my-3">
-                    <div class="card shadow h-100">
-                        <a class="card-link" href="{{ site.baseurl }}/archives/{{ page.year }}.html">
-                            <div class="card-body">
-                                <h2 class="card-title">{{ page.year }}</h2>
-                            </div>
-                        </a>
-                    </div>
+                <div class="card">
+                    <a class="card-link" href="{{ site.baseurl }}/archives/{{ page.year }}.html">
+                        <div class="card-body">
+                            <h2 class="card-title">{{ page.year }}</h2>
+                        </div>
+                    </a>
                 </div>
                 {% endfor %}
             </div>

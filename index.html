@@ -4,14 +4,14 @@ nav: /
 ---
 
 <div class="index">
-    <div class="split-hero med-background">
+    <div class="med-background">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img src="{{ site.baseurl }}/assets/images/logo/lhsnjcl.png" class="d-block w-100"
-                        alt="index cover">
+            <div class="split-hero">
+                <div class="hero-image">
+                    <img src="{{ site.baseurl }}/assets/images/logo/lhsnjcl.png" alt="index cover" width="100%"
+                        height="auto">
                 </div>
-                <div class="col-md-6 d-flex align-items-start flex-column justify-content-center">
+                <div id="hero-index">
                     <h1>Welcome to TJ Latin!</h1>
                     <p>The official website for the Thomas Jefferson High School for Science and Technology Latin
                         program.</p>
@@ -21,38 +21,36 @@ nav: /
         </div>
     </div>
     <div class="light-background">
-        <div class="container text-center">
+        <div class="container">
             <h2 class="heading">News</h2>
-            <div class="row">
+            <div class="med-card-container">
                 {%- assign date_format = "%b. %-d, %Y" -%}
                 {%- for post in site.posts limit:3 -%}
-                <div class="col-md-4 my-3">
-                    <div class="card shadow h-100">
-                        <a class="card-link" href="{{ site.baseurl }}{{ post.url }}">
-                            <img src="{{ site.baseurl }}/assets/images/{{ post.thumb }}" class="card-img-top"
-                                alt="{{ post.title }}">
-                            <div class="card-body text-center">
-                                <h3 class="card-title mb-0">{{ post.title | escape }}</h3>
-                                <span class="post-meta">{{ post.date | date: date_format }} by {{ post.author
-                                    }}</span>
-                            </div>
-                        </a>
-                    </div>
+                <div class="card photo-card">
+                    <a class="card-link" href="{{ site.baseurl }}{{ post.url }}">
+                        <img src="{{ site.baseurl }}/assets/images/{{ post.thumb }}" class="card-img-top"
+                            alt="{{ post.title }}">
+                        <div class="card-body">
+                            <h3 class="card-title">{{ post.title | escape }}</h3>
+                            <span class="post-meta">{{ post.date | date: date_format }} by {{ post.author
+                                }}</span>
+                        </div>
+                    </a>
                 </div>
                 {%- endfor -%}
             </div>
-            <a class="btn" href="{{ site.baseurl }}/news.html" role="button">Read more</a>
+            <div class="center-btn">
+                <a class="btn" href="{{ site.baseurl }}/news.html#stories" role="button">Read more</a>
+            </div>
         </div>
     </div>
     <div class="med-background">
         <div class="container">
-            <div class="row">
+            <div class="event-flex">
                 {%- include events.html -%}
-                <div class="col-md-8 col-md-8 d-flex align-items-start flex-column justify-content-center">
-                    <div class="photo-frame">
-                        <img src="{{ site.baseurl }}/assets/images/2020-2021/officer_induction.jpg" width="100%"
-                            height="auto" alt="Latin Honor Society Officer Induction">
-                    </div>
+                <div class="photo-frame">
+                    <img src="{{ site.baseurl }}/assets/images/2020-2021/officer_induction.jpg" width="100%"
+                        height="auto" alt="Latin Honor Society Officer Induction">
                 </div>
             </div>
         </div>
