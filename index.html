@@ -28,7 +28,7 @@ nav: /
                 {%- for post in site.posts limit:3 -%}
                 <div class="card photo-card">
                     <a class="card-link" href="{{ site.baseurl }}{{ post.url }}">
-                        <img src="{{ site.baseurl }}/assets/images/{{ post.thumb }}" class="card-img-top"
+                        <img src="{{ site.baseurl }}/assets/images/blog/{{ post.thumb }}" class="card-img-top"
                             alt="{{ post.title }}">
                         <div class="card-body">
                             <h3 class="card-title">{{ post.title | escape }}</h3>

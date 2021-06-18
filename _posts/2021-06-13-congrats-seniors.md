@@ -1,6 +1,6 @@
 ---
 title: "Congratulations to the Class of 2021!"
-thumb: 2020-2021/senior-send-off.png
+thumb: senior-send-off.png
 author: Anna Hsu
 author_url: anna-hsu
 date: 2021-06-05

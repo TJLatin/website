@@ -1,6 +1,6 @@
 ---
 title: "New TJ Latin Website Launched"
-thumb: logo/website.png
+thumb: website.png
 author: Anna Hsu
 author_url: anna-hsu
 date: 2021-02-23

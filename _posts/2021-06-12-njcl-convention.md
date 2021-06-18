@@ -1,6 +1,6 @@
 ---
 title: "Sign Up for NJCL Convention"
-thumb: 2020-2021/fellowship.jpg
+thumb: fellowship.jpg
 author: Anna Hsu
 author_url: anna-hsu
 date: 2021-06-12
