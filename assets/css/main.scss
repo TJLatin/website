@@ -43,6 +43,10 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
+@mixin no-hover {
+  box-shadow: none;
+  transform: none;
+}
 
 @mixin background-theme($color, $text) {
   background-color: $color;
@@ -344,6 +348,14 @@ ul {
     text-align: center;
   }
 }
+.post {
+  .post-title {
+    margin-bottom: 0px;
+  }
+  .post-meta {
+    margin: 0px;
+  }
+}
 
 .photo-frame {
   border: 1em solid $dark;
@@ -375,7 +387,10 @@ ul {
 @mixin card-container($multiplier) {
   margin: 0px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); // auto-fit for stuff like magistrae cards without the multiplier
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(280px, 1fr)
+  ); // auto-fit for stuff like magistrae cards without the multiplier
   gap: 20px;
   padding-bottom: 15px;
   @media screen and (min-width: 900px) {
@@ -425,6 +440,12 @@ ul {
 .photo-card {
   .card-body {
     padding-top: 0px;
+  }
+}
+
+.certamen {
+  .card {
+    @include no-hover;
   }
 }
 
