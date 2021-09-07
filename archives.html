@@ -4,21 +4,21 @@ title: Archives
 nav: /archives.html
 ---
 <div class="archives">
-    <div class="light-background">
-        <div class="container">
+    <section class="hero light-background">
+        <div>
             <h1 class="heading">Archives</h1>
         </div>
-    </div>
-    <div class="light-background">
-        <div class="container">
+    </section>
+    <section class="light-background">
+        <div>
             <p>Take a blast into the past through our archives, dating back to 2012. Although TJ Latin was founded long
                 before, any memories remaining from those days can only be found in the hearts of those present or via a
                 time machine. If you have any photos or documents you'd like to contribute to the archives, please <a
                     href="{{ site.baseurl }}/contact.html">contact us</a>.</p>
         </div>
-    </div>
-    <div class="light-background">
-        <div class="container">
+    </section>
+    <section class="light-background">
+        <div>
             <div class="card-container">
                 {% for page in site.data.archives %}
                 <div class="card">
@@ -31,5 +31,5 @@ nav: /archives.html
                 {% endfor %}
             </div>
         </div>
-    </div>
+    </section>
 </div>

@@ -3,9 +3,9 @@ title: Home
 nav: /
 ---
 
-<div class="index">
-    <div class="med-background">
-        <div class="container">
+<div id="index">
+    <section class="med-background cover">
+        <div>
             <div class="split-hero">
                 <div class="hero-image">
                     <img src="{{ site.baseurl }}/assets/images/logo/lhsnjcl.png" alt="index cover" width="100%"
@@ -19,9 +19,9 @@ nav: /
                 </div>
             </div>
         </div>
-    </div>
-    <div class="light-background">
-        <div class="container">
+    </section>
+    <section class="light-background">
+        <div>
             <h2 class="heading">News</h2>
             <div class="med-card-container">
                 {%- assign date_format = "%b. %-d, %Y" -%}
@@ -43,9 +43,9 @@ nav: /
                 <a class="btn" href="{{ site.baseurl }}/news.html#stories" role="button">Read more</a>
             </div>
         </div>
-    </div>
-    <div class="med-background">
-        <div class="container">
+    </section>
+    <section class="med-background">
+        <div>
             <div class="event-flex">
                 {%- include events.html -%}
                 <div class="photo-frame">
@@ -54,5 +54,5 @@ nav: /
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 </div>
