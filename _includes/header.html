@@ -1,15 +1,16 @@
-<nav class="navbar">
-    <span class="navbar-toggle" id="js-navbar-toggle">
-        <img src="{{ site.baseurl }}/assets/images/svg/hamburger.svg" alt="dropdown" height="45px" width="auto">
-    </span>
-    <div class="logo">
-        <a class="navbar-brand" href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/images/logo/lhslong.png"
-                alt="TJ Latin" width="auto" height="40px"></a>
-    </div>
-    <div class="main-nav" id="js-menu">
-        {% for link in site.data.navigation %}
-        <a class="{% if link.url == page.nav %}active{% endif %} page-link" href="{{ site.baseurl }}{{ link.url }}">{{
-            link.name }}</a>
-        {% endfor %}
+<nav>
+    <div class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <img src="{{ site.baseurl }}/assets/images/svg/hamburger.svg" alt="dropdown" height="45px" width="auto">
+        </span>
+        <div class="logo">
+            <a href="{{ site.baseurl }}/">TJ Latin</a>
+        </div>
+        <div class="main-nav" id="js-menu">
+            {% for link in site.data.navigation %}
+            <a class="{% if link.url == page.nav %}active{% endif %}" href="{{ site.baseurl }}{{ link.url }}">{{
+                link.name }}</a>
+            {% endfor %}
+        </div>
     </div>
 </nav>

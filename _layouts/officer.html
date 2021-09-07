@@ -3,11 +3,13 @@ layout: default
 ---
 <!-- breadcrumbs !! -->
 <div class="officer">
-    <div class="hero light-background">
-        <div class="container">
+    <section class="hero light-background">
+        <div>
             <div class="officer-flex">
                 <div class="officer-text">
-                    <h1>{{ page.name }} <!-- ({{ page.latin_name }}) collect Latin names--></h1>
+                    <h1>{{ page.name }}
+                        <!-- ({{ page.latin_name }}) collect Latin names-->
+                    </h1>
                     <h2>{{ page.office }}, Class of {{ page.year }}</h2>
                     <span><a href="mailto:{{ page.email }}">{{ page.email }}</a></span>
                     {{ content }}
@@ -17,10 +19,10 @@ layout: default
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="light-background">
-        <div class="container">
+    <section class="light-background">
+        <div>
             <h2>Posts</h2>
             <ul class="post-list">
                 {%- assign date_format = "%b. %-d, %Y" -%}
@@ -38,5 +40,5 @@ layout: default
                 {%- endfor -%}
             </ul>
         </div>
-    </div>
+    </section>
 </div>
