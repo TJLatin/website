@@ -11,26 +11,14 @@ plugins:
 collections:
   officers:
     order:
-      - jing-liu.md
-      - jw-strassberg.md
-      - nicole-koko.md
       - abi-sastry.md
-      - kelly-mao.md
-      - emerson-rodriguez.md
       - michelle-ru.md
       - jennifer-hunsinger.md
       - william-mclaughlin.md
-      - thomas-donohue.md
       - ryan-dwyer.md
-      - owen-grannis.md
-      - andrew-hadikusumo.md
       - rhea-goswami.md
-      - reva-hirave.md
-      - nilima-khanna.md
       - anna-hsu.md
       - nidhish-lella.md
-      - karen-song.md
-      - miranda-xiong.md
     output: true
 
 defaults:
