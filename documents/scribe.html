@@ -10,8 +10,19 @@ nav: /documents.html
     </section>
     <section class="light-background">
         <div>
-            <p>Coming soon!</p>
-            <p>You can view previous editions of the Scribe in our <a href="{{ site.baseurl }}/archives.html">Archives</a>.</p>
+            <div class="card-container">
+                {% for scribe in site.data.scribe %}
+                <div class="card">
+                    <a href="{{ scribe.url }}" target="_blank">
+                        <div class="card-body">
+                            <h3 class="card-title">{{ scribe.name }}</h3>
+                        </div>
+                    </a>
+                </div>
+                {% else %}
+                <p>Scribe coming soon!</p>
+                {% endfor %}
+            </div>
         </div>
     </section>
 </div>

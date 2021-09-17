@@ -2,7 +2,7 @@
 ---
 
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gotu&display=swap");
 
 $white: #ffffff;
 $light: #efeff7;
@@ -85,7 +85,12 @@ body {
   @include background-theme($dark, $light);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Gotu";
 }
 
@@ -314,12 +319,26 @@ ul {
 
 .split-hero {
   display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  .hero-image,
-  #hero-index {
-    flex: 1;
-    min-width: 280px;
+  flex-flow: column;
+  .hero-image {
+    margin-top: 64px;
+    @media (max-height: 512px) {
+      display: none;
+    }
+  }
+  @media (min-width: 592px) {
+    flex-flow: row;
+    align-items: center;
+    .hero-image,
+    #hero-index {
+      flex: 1;
+      min-width: 280px;
+      margin-top: 64px;
+    }
+    img {
+      max-height: 85vh;
+      width: auto;
+    }
   }
   h1 {
     margin-bottom: 0px;
@@ -428,7 +447,7 @@ ul {
   @include card-container(1);
 }
 .med-card-container {
-  @include card-container(1.5);
+  @include card-container(1.4);
 }
 .wide-card-container {
   margin: 0px;
