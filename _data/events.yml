@@ -1,9 +1,15 @@
 upcoming_events:
-  - name: VJCL Convention Interest Meeting
-    date: Oct. 2, 2021
-    loc: Room 62 (Conklin)
+  - name: Myth Pumpkins
+    date: Oct. 27, 2021
+    loc: Room 62 (Conklin) & 64 (Lister)
+  - name: VJCL Convention
+    date: Nov. 14, 2021
+    loc: Greater Richmond Convention Center
 
 past_events:
+  - name: VJCL Convention Interest Meeting
+    date: Oct. 6 & 8, 2021
+    link: none
   - name: Ice Cream Social
     date: Sept. 17, 2021
     link: none
