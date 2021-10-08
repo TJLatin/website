@@ -164,6 +164,7 @@ img {
 
 ul {
   margin-top: 0px;
+  padding: 0;
 }
 
 .navbar {
@@ -531,6 +532,14 @@ ul {
   .photo-frame {
     flex: 1;
     min-width: 280px;
+  }
+  .list {
+    @include no-link-styling();
+  }
+  .socials {
+    filter: invert(17%) sepia(44%) saturate(985%) hue-rotate(203deg)
+      brightness(100%) contrast(90%);
+    padding-right: 8px;
   }
 }
 
