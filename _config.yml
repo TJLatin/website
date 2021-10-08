@@ -1,5 +1,5 @@
 title: TJ Latin
-description: >- 
+description: >-
   Welcome to TJ Latin! We're TJ's best community, full of passionate students that can't wait to share the world of Classics with others.
 baseurl: "/latin"
 
@@ -11,14 +11,26 @@ plugins:
 collections:
   officers:
     order:
-      - abi-sastry.md
       - michelle-ru.md
+      - abi-sastry.md
+      - clarissa-ding.md
+      - lauren-fisher.md
+      - patrick-gaucher.md
+      - alex-yung.md
+      - prithvi-seri.md
+      - shruti-shah.md
+      - daphne-feigin.md
+      - rae-trainer.md
+      - ryan-dwyer.md
+      - anand-advani.md
+      - gabriel-ascoli.md
+      - rhea-goswami.md
+      - alison-song.md
+      - tarini-basireddy.md
+      - anna-hsu.md
+      - derek-li.md
       - jennifer-hunsinger.md
       - william-mclaughlin.md
-      - ryan-dwyer.md
-      - rhea-goswami.md
-      - anna-hsu.md
-      - nidhish-lella.md
     output: true
 
 defaults:

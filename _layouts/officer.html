@@ -7,11 +7,17 @@ layout: default
         <div>
             <div class="officer-flex">
                 <div class="officer-text">
-                    <h1>{{ page.name }}
-                        <!-- ({{ page.latin_name }}) collect Latin names-->
-                    </h1>
-                    <h2>{{ page.office }}, Class of {{ page.year }}</h2>
-                    <span><a href="mailto:{{ page.email }}">{{ page.email }}</a></span>
+                    <h1>{{ page.name }} ({{ page.latin_name }})</h1>
+                    <h2>{{ page.office }}</h2>
+                    <h3>{{ page.level }}, Class of {{ page.year }}</h3>
+                    <div class="list">
+                        <a href="mailto:{{ page.email }}"><img class="socials"
+                                src="{{ site.baseurl }}/assets/images/svg/mail.svg" height="48px" width="auto"
+                                alt="email"></a>
+                        <a href="{{ page.facebook }}" target="_blank"><img class="socials"
+                                src="{{ site.baseurl }}/assets/images/svg/facebook.svg" height="48px" width="auto"
+                                alt="Facebook"></a>
+                        </div>
                     {{ content }}
                 </div>
                 <div class="photo-frame">
