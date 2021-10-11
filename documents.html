@@ -17,30 +17,16 @@ nav: /documents.html
     <section class="light-background">
         <div>
             <div class="med-card-container">
+                {% for document in site.data.documents %}
                 <div class="card">
-                    <a class="card-link" href="{{ site.baseurl }}/documents/vjcl.html">
+                    <a class="card-link" href="{{ site.baseurl }}/documents/{{ document.url }}.html">
                         <div class="card-body">
-                            <h2 class="card-title">VJCL Convention</h2>
-                            <p>Find out more on this year's in-person state convention!</p>
+                            <h2 class="card-title">{{ document.name }}</h2>
+                            <p>{{ document.description }}</p>
                         </div>
                     </a>
                 </div>
-                <div class="card">
-                    <a class="card-link" href="{{ site.baseurl }}/documents/minutes.html">
-                        <div class="card-body">
-                            <h2 class="card-title">Minutes</h2>
-                            <p>View our meeting minutes, created by our Censor.</p>
-                        </div>
-                    </a>
-                </div>
-                <div class="card">
-                    <a class="card-link" href="{{ site.baseurl }}/documents/scribe.html">
-                        <div class="card-body">
-                            <h2 class="card-title">Scribe</h2>
-                            <p>Read our award-winning publication, produced by our Auctor.</p>
-                        </div>
-                    </a>
-                </div>
+                {% endfor %}
             </div>
         </div>
     </section>
