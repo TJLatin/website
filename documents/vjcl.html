@@ -6,12 +6,44 @@ nav: /documents.html
     <section class="hero light-background">
         <div>
             <h1 class="heading">VJCL Convention</h1>
-            <h2 class="heading">Nov. 14, 2021, Greater Richmond Convention Center</h2>
+            <h2 class="heading">Nov. 14, 2021, 9 AM - 7 PM, Greater Richmond Convention Center</h2>
+            <h2 class="heading">Nov. 15, 2021, 7 PM - 9 PM, Virtual</h2>
         </div>
     </section>
     <section class="light-background">
         <div>
-            <p>More information about this year's convention will be coming shortly!</p>
+            <p>We're absolutely delighted that VJCL Convention is happening in person this year! The Domini Telae will
+                be updating this website as we receive more information on the convention as the situation evolves, with
+                a "Nota Bene" section for special announcements. Contact an officer or the Magistrae if you have
+                questions.</p>
+            <p><strong>Last updated: Oct. 11, 2021.</strong></p>
+            <div class="alert">
+                <h2>Nota Bene / TL;DR</h2>
+                <ul>
+                    <li>BRING YOUR OWN CLIPBOARD AND PENCILS. This is a result of COVID protocols.</li>
+                    <li>We will each be receiving a bag lunch and box dinner. GRCC Food Court will remain closed, as
+                        will Starbucks in the Marriott to students.</li>
+                    <li>There will be no Sight Latin or Impromptu Art. That's Entertainment will be virtual.</li>
+                    <li>Graphic Arts will be virtual, and each student is permited a maximum of 6 submissions.</li>
+                    <li>Costume Contest will be virtual, while all other Creative Arts will remain in person.</li>
+                    <li>Proof of vaccination or PCR test no earlier than Nov. 11 will be required to attend.</li>
+                    <li>Whenever possible, students are required to wear surgical masks over cloth masks due to research
+                        pointing at their increased effectiveness.</li>
+                </ul>
+            </div>
+            <div class="med-card-container">
+                {% for document in site.data.vjcl %}
+                <div class="card">
+                    <a class="card-link" href="{{ document.url }}" target="_blank">
+                        <div class="card-body">
+                            <h3 class="card-title">{{ document.name }}</h3>
+                            <p><strong>{{ document.deadline }}</strong></p>
+                            <p>{{ document.description }}</p>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
         </div>
     </section>
 </div>

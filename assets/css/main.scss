@@ -372,6 +372,13 @@ ul {
   }
 }
 
+.alert {
+  background-color: $med;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
 .post-list {
   padding: 0px;
   .post-link,

@@ -1,0 +1,9 @@
+- name: VJCL Convention
+  description: Find out more on this year's in-person state convention!
+  url: vjcl
+- name: Minutes
+  description: View our meeting minutes, created by our Censor.
+  url: minutes
+- name: Scribe
+  description: Read our award-winning publication, produced by our Auctor.
+  url: scribe
