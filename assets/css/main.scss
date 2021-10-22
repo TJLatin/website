@@ -11,8 +11,9 @@ $med: #aeaed7;
 $dark: #333366;
 $pink: #ff5f5f;
 
-html {
+html, body {
   height: 100%;
+  font-size: 16px;
 }
 
 body {
@@ -21,7 +22,6 @@ body {
   background-color: $light;
   display: flex;
   flex-direction: column;
-  height: 100%;
   margin: 0px;
 }
 
@@ -30,10 +30,15 @@ body {
     box-shadow: none;
     padding: 0px;
     transition: none;
+    &:hover {
+      background: none;
+    }
   }
-  a:hover {
-    background: none;
-  }
+}
+
+@mixin no-hover {
+  box-shadow: none;
+  transform: none;
 }
 
 @mixin no-select {
@@ -43,10 +48,6 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-@mixin no-hover {
-  box-shadow: none;
-  transform: none;
 }
 
 @mixin background-theme($color, $text) {
@@ -65,33 +66,21 @@ body {
   .btn {
     background-color: $text;
     color: $color;
-  }
-
-  .btn:hover {
-    background-color: darken;
-    color: $color;
+    &:hover {
+      background-color: darken;
+      color: $color;
+    }
   }
 }
 
 .light-background {
   @include background-theme($light, $dark);
 }
-
 .med-background {
   @include background-theme($med, $dark);
 }
-
 .dark-background {
   @include background-theme($dark, $light);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Gotu";
 }
 
 section,
@@ -109,52 +98,36 @@ footer > div {
   }
 }
 
-$font-size: 45px;
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 600;
-  color: $dark;
-  margin: 0px 0px 8px 0px;
+$font-size: 36px;
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-family: "Gotu";
+    font-size: $font-size * (2 / $i);
+    font-weight: 600;
+    color: $dark;
+    margin: 0px 0px 8px 0px;
+  }
 }
 h1 {
-  font-size: $font-size;
-}
-h2 {
-  font-size: $font-size * 0.7;
-}
-h3 {
-  font-size: $font-size * 0.6;
-}
-h4 {
-  font-size: $font-size * 0.5;
-}
-h5 {
-  font-size: $font-size * 0.4;
-}
-h6 {
-  font-size: $font-size * 0.3;
+  font-size: 48px;
 }
 
 a {
   color: $dark;
   box-shadow: inset 0 -2px 0 $pale;
   padding: 0px 1px;
-  transition: background 0.1s cubic-bezier(0.33, 0.66, 0.66, 1);
+  transition: background 0.2s cubic-bezier(0.33, 0.66, 0.66, 1);
   font-weight: 600;
   text-decoration: none;
-}
-a:hover {
-  color: $dark;
-  background: $pale;
-  text-decoration: none;
-}
-a:visited {
-  color: $dark;
-  text-decoration: none;
+  &:hover {
+    color: $dark;
+    background: $pale;
+    text-decoration: none;
+  }
+  &:visited {
+    color: $dark;
+    text-decoration: none;
+  }
 }
 
 img {
@@ -179,9 +152,9 @@ ul {
   a {
     display: inline-block;
     position: relative;
-    transition: 0.3s;
+    transition: 0.2s;
     color: $dark;
-    font-weight: normal;
+    font-weight: 400;
     margin: 15px;
   }
 }
@@ -201,7 +174,7 @@ ul {
 .logo {
   display: inline-block;
   a {
-    font-weight: 700;
+    font-weight: 600;
   }
 }
 .navbar-toggle {
@@ -238,7 +211,7 @@ ul {
         right: 0;
         height: 2px;
         opacity: 0;
-        transition: 0.3s;
+        transition: 0.2s;
       }
       &:hover {
         &:after {
@@ -426,10 +399,10 @@ ul {
   border-radius: 8px;
   box-shadow: none;
   transition: none;
-}
-.btn:hover {
-  background-color: lighten;
-  color: $light;
+  &:hover {
+    background-color: lighten;
+    color: $light;
+  }
 }
 .center-btn {
   text-align: center;
@@ -473,7 +446,7 @@ ul {
   @include no-link-styling;
   @include no-select;
   max-width: 770px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
   background-color: $white;
   border-radius: 8px;
   .card-body {
