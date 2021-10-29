@@ -1,12 +1,24 @@
 upcoming_events:
-  - name: Myth Pumpkins
-    date: Oct. 27, 2021
-    loc: Room 62 (Conklin) & 64 (Lister)
+  - name: General Convention Meeting
+    date: Oct. 28, 2021 (8B)
+    loc: Lecture Hall
+  - name: Spirit Prop Meeting
+    date: Nov. 5, 2021 (8A & 8B)
+    loc: Rm 62 (Conklin)
+  - name: Spirit Prop Meeting Makeup (juniors only)
+    date: Nov. 8, 2021 (JLC)
+    loc: Rm 62 (Conklin)
+  - name: Final Convention Meeting
+    date: Nov. 12, 2021 (8A & 8B)
+    loc: Rm 62 (Conklin), Rm 64 (Lister)
   - name: VJCL Convention
     date: Nov. 14, 2021
     loc: Greater Richmond Convention Center
 
 past_events:
+  - name: Myth Pumpkins
+    date: Oct. 27, 2021
+    link: none
   - name: VJCL Convention Interest Meeting
     date: Oct. 6 & 8, 2021
     link: none
