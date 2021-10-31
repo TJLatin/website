@@ -9,6 +9,14 @@ const filter = (idname, classname) => {
 let mainNav = document.getElementById("js-menu");
 let navBarToggle = document.getElementById("js-navbar-toggle");
 
-navBarToggle.addEventListener("click", function () {
-  mainNav.classList.toggle("on");
-});
+navBarToggle.addEventListener("click", () => mainNav.classList.toggle("on"));
+
+const linkToggle = (idname) => {
+  let e = document.getElementById(idname);
+  if (e.style.display == "block") {
+    e.style.display = "none";
+  }
+  else {
+    e.style.display = "block";
+  }
+}

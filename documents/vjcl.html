@@ -14,9 +14,8 @@ nav: /documents.html
         <div>
             <p>We're absolutely delighted that VJCL Convention is happening in person this year! The Domini Telae will
                 be updating this website as we receive more information on the convention as the situation evolves, with
-                a "Nota Bene" section for special announcements. Contact an officer or the Magistrae if you have
-                questions.</p>
-            <p><strong>Last updated: Oct. 29, 2021.</strong></p>
+                a "Nota Bene" section for special announcements. Contact your tribune if you have questions.</p>
+            <p><strong>Last updated: Oct. 31, 2021.</strong></p>
             <div class="alert">
                 <h3>Nota Bene / TL;DR</h3>
                 <ul>
@@ -30,7 +29,6 @@ nav: /documents.html
                         be submitted to the Magistrae through a Google form.</li>
                     <li>Whenever possible, students are required to wear surgical masks over cloth masks due to research
                         pointing at their increased effectiveness.</li>
-                    <li>Your tributes are your points of reference! Let them know if you have any questions.</li>
                 </ul>
             </div>
         </div>
@@ -50,11 +48,61 @@ nav: /documents.html
             </ul>
         </div>
     </section>
-    <section>
+    <section class="light-background">
+        <div class="faq list">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <p>We've compiled a list of questions we've received, and we'll update it as we go!</p>
+            <div>
+                <h3>Graphic Arts</h3>
+                <ul>
+                    {% for q in site.data.vjcl.faq.ga %}
+                    <li>
+                        <p><a class="click" onClick="linkToggle('{{ q.id }}')">{{q.question}}</a></p>
+                        <p id="{{ q.id }}" style="display: none;">{{ q.answer }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div>
+                <h3>Creative Arts</h3>
+                <ul>
+                    {% for q in site.data.vjcl.faq.ca %}
+                    <li>
+                        <p><a class="click" onClick="linkToggle('{{ q.id }}')">{{q.question}}</a></p>
+                        <p id="{{ q.id }}" style="display: none;">{{ q.answer }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div>
+                <h3>Academics</h3>
+                <ul>
+                    {% for q in site.data.vjcl.faq.acad %}
+                    <li>
+                        <p><a class="click" onClick="linkToggle('{{ q.id }}')">{{q.question}}</a></p>
+                        <p id="{{ q.id }}" style="display: none;">{{ q.answer }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div>
+                <h3>Miscellaneous</h3>
+                <ul>
+                    {% for q in site.data.vjcl.faq.misc %}
+                    <li>
+                        <p><a class="click" onClick="linkToggle('{{ q.id }}')">{{q.question}}</a></p>
+                        <p id="{{ q.id }}" style="display: none;">{{ q.answer }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="med-background">
         <div>
             <h2>Important Links</h2>
             <div class="med-card-container">
-                {% for document in site.data.vjcl %}
+                {% for document in site.data.vjcl.links %}
                 <div class="card">
                     <a class="card-link" href="{{ document.url }}" target="_blank">
                         <div class="card-body">

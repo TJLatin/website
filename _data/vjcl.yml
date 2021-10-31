@@ -1,35 +1,81 @@
-- name: Convention Packet
-  description: The full convention packet is available for viewing.
-  url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit?usp=sharing
-- name: Tentative Convention Schedule
-  description: Want to know how your day will be structured at convention? An expected schedule has been curated by the VJCL.
-  url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.fwo3ezpfkioo
-- name: Academics Info
-  description: This year, academics will be back in full force! Please be sure to bring your own clipboard and pencils for testing sessions.
-  url: https://docs.google.com/document/d/1UarJtgLYphAgEYlJdmmelgn5OxP-rbFE2ya6wuayMIM/edit
-- name: Previous Tests
-  description: Want to get some practice on academics before you arrive at convention? You can attend a lunch lecture with the Reges or try your hand out at some tests from previous years.
-  url: https://drive.google.com/drive/folders/1QH5TzI5Jz-pv3FAFWtyc0_1a37RXFqGH
-- name: Modern Myth
-  deadline: Oct. 16, 2021, 11:59 PM
-  description: Interested in submitting a 500-1200 word modern myth to the convention? Try your hand at this popular event with an exceptionally early deadline.
-  url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.cbmw7k4iheyi
-- name: Costume Contest
-  description: This year's costume contest theme is "The Ancient Sea."
-  url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.876twldf3455
-- name: Creative Arts
-  description: These are in-person events, including English Oratory, Latin Oratory, Dramatic Interpretation, and Storytelling.
-  url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.mqxsuuckv3tk
-- name: Creative Arts Passages
-  description: The official NJCL / VJCL passages can be found here.
-  url: https://drive.google.com/file/d/1hzSRU_33Es9qYeM4uSFYszMli3_bQ1og/view
-- name: Graphic Arts
-  deadline: Oct. 31, 2021
-  description: For both the artsy and the unartistic, there's a place for everyone in Graphic Arts. Students are permitted to submit a maximum of 6 projects per student.
-  url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.36wf4wpyds65
-- name: Graphic Arts Memo
-  description: Graphic Arts will be slightly different compared to normal in-person years. VJCL has compiled new, specific details about Graphic Arts.
-  url: https://docs.google.com/document/d/18_Q7IdVPv8askjJxsBPyMIKsFU7euh5HWJmIZttgsP0/edit?usp=sharing
-- name: VJCL Convention Website
-  description: Want more information on the obscure aspects of convention? If we don't have it here, see if VJCL does!
-  url: https://virginiajcl.org/convention-information.html
+faq:
+  ga:
+    - question: Is Graphic Arts all virtual?
+      answer: Yes. The VJCL has made some things about this unclear, but all Graphic Arts events are virtual.
+      id: ga-virtual
+    - question: How many pieces can I make per category?
+      answer: You may submit no more than one piece per category until you've submitted six pieces.
+      id: num-med
+    - question: Can I submit more than six pieces?
+      answer: No; all students are limited to a maximum of six art pieces this year.
+      id: six
+    - question: For my descriptions of artwork, do I make a separate document for each piece?
+      answer: It is all in one document.
+      id: one
+    - question: For XXX category, it has dimensions listed. Can I go below the dimensions they have?
+      answer: As long as it is the same size or smaller, you are good to go!
+      id: dimensions
+    - question: I made something XXX months ago. Can I submit it?
+      answer: As long as it was made after last year's convention, it's free game.
+      id: date
+    - question: Is "Black Pencil" just graphite pencil or black colored pencil?
+      answer: Anything that is graphite pencil should work.
+      id: black-pencil
+    - question: Am I allowed to take more than one photo for my entries?
+      answer: For some categories such as Models and Greeting Cards, we recommend that you take as many photos as you need to fully show the depth of your project.
+      id: num-photos
+  ca:
+    - question: Are all Creative Arts events in person?
+      answer: All are in person with the exception of Costume Contest, which is virtual with a deadline of Nov. 7.
+      id: ca-virtual
+    - question: Do we register for Creative Arts in person with the stickers they'll give us?
+      answer: Our current knowledge says that you are correct. However, this may change, but your tribune will let you know if it does.
+      id: registration
+  acad:
+    - question: How do I prepare for tests?
+      answer: You can attend TJ Lunch Lectures, held by the Reges, or you can look at the various study resources the Reges and VJCL have provided. They're linked below in the Important Links section.
+      id: prepare
+  misc:
+    - question: Is That's Entertainment! happening? Where will it be held?
+      answer: It will be virtual on Nov. 15, but registrations will happen on the morning of Nov. 14
+      id: ta
+
+links:
+  - name: Convention Packet
+    description: The full convention packet is available for viewing.
+    url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit?usp=sharing
+  - name: Tentative Convention Schedule
+    description: Want to know how your day will be structured at convention? An expected schedule has been curated by the VJCL.
+    url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.fwo3ezpfkioo
+  - name: Academics Info
+    description: This year, academics will be back in full force! Please be sure to bring your own clipboard and pencils for testing sessions.
+    url: https://docs.google.com/document/d/1UarJtgLYphAgEYlJdmmelgn5OxP-rbFE2ya6wuayMIM/edit
+  - name: Previous Tests
+    description: Want to get some practice on academics before you arrive at convention? You can attend a lunch lecture with the Reges or try your hand out at some tests from previous years.
+    url: https://drive.google.com/drive/folders/1QH5TzI5Jz-pv3FAFWtyc0_1a37RXFqGH
+  - name: Modern Myth
+    deadline: Oct. 16, 2021, 11:59 PM
+    description: Interested in submitting a 500-1200 word modern myth to the convention? Try your hand at this popular event with an exceptionally early deadline.
+    url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.cbmw7k4iheyi
+  - name: Costume Contest
+    description: This year's costume contest theme is "The Ancient Sea."
+    url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.876twldf3455
+  - name: Creative Arts
+    description: These are in-person events, including English Oratory, Latin Oratory, Dramatic Interpretation, and Storytelling.
+    url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.mqxsuuckv3tk
+  - name: Creative Arts Passages
+    description: The official NJCL / VJCL passages can be found here.
+    url: https://drive.google.com/file/d/1hzSRU_33Es9qYeM4uSFYszMli3_bQ1og/view
+  - name: Graphic Arts
+    deadline: Oct. 31, 2021
+    description: For both the artsy and the unartistic, there's a place for everyone in Graphic Arts. Students are permitted to submit a maximum of 6 projects per student.
+    url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.36wf4wpyds65
+  - name: Graphic Arts Memo
+    description: Graphic Arts will be slightly different compared to normal in-person years. VJCL has compiled new, specific details about Graphic Arts.
+    url: https://docs.google.com/document/d/18_Q7IdVPv8askjJxsBPyMIKsFU7euh5HWJmIZttgsP0/edit?usp=sharing
+  - name: VJCL Convention Website
+    description: Want more information on the obscure aspects of convention? If we don't have it here, see if VJCL does!
+    url: https://virginiajcl.org/convention-information.html
+  - name: TJ Study Guides
+    description: A list of Certamen / Academic Exam study materials have been compiled by the Reges.
+    url: https://drive.google.com/drive/folders/1AUorFXGx8boE2PelJW62yKluCYEx32MA?usp=sharing
