@@ -57,7 +57,7 @@ nav: /documents.html
                 <ul>
                     {% for q in site.data.vjcl.faq.ga %}
                     <li>
-                        <p><a class="click" onclick="linkToggle('{{ q.id }}')" onfocus="linkToggle('{{ q.id }}')">{{q.question}}</a></p>
+                        <p><a class="click" data-id="{{ q.id }}">{{q.question}}</a></p>
                         <p id="{{ q.id }}" style="display: none;">{{ q.answer }}</p>
                     </li>
                     {% endfor %}
@@ -68,7 +68,7 @@ nav: /documents.html
                 <ul>
                     {% for q in site.data.vjcl.faq.ca %}
                     <li>
-                        <p><a class="click" onclick="linkToggle('{{ q.id }}')" onfocus="linkToggle('{{ q.id }}')">{{q.question}}</a></p>
+                        <p><a class="click" data-id="{{ q.id }}">{{q.question}}</a></p>
                         <p id="{{ q.id }}" style="display: none;">{{ q.answer }}</p>
                     </li>
                     {% endfor %}
@@ -79,7 +79,7 @@ nav: /documents.html
                 <ul>
                     {% for q in site.data.vjcl.faq.acad %}
                     <li>
-                        <p><a class="click" onclick="linkToggle('{{ q.id }}')" onfocus="linkToggle('{{ q.id }}')">{{q.question}}</a></p>
+                        <p><a class="click" data-id="{{ q.id }}">{{q.question}}</a></p>
                         <p id="{{ q.id }}" style="display: none;">{{ q.answer }}</p>
                     </li>
                     {% endfor %}
@@ -90,7 +90,7 @@ nav: /documents.html
                 <ul>
                     {% for q in site.data.vjcl.faq.misc %}
                     <li>
-                        <p><a class="click" onclick="linkToggle('{{ q.id }}')" onfocus="linkToggle('{{ q.id }}')">{{q.question}}</a></p>
+                        <p><a class="click" data-id="{{ q.id }}">{{q.question}}</a></p>
                         <p id="{{ q.id }}" style="display: none;">{{ q.answer }}</p>
                     </li>
                     {% endfor %}

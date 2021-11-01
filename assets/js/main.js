@@ -20,3 +20,8 @@ const linkToggle = (idname) => {
     e.style.display = "block";
   }
 }
+
+document.querySelectorAll('.click').forEach((el) => {
+  el.addEventListener('click', () => linkToggle(el.dataset.id))
+  el.addEventListener('focus', () => linkToggle(el.dataset.id))
+})
