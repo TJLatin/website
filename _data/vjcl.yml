@@ -24,6 +24,14 @@ faq:
     - question: Am I allowed to take more than one photo for my entries?
       answer: For some categories such as Models and Greeting Cards, we recommend that you take as many photos as you need to fully show the depth of your project.
       id: num-photos
+    - question: ID card??? What???
+      answer: Your ID card will be the document where you put your title, grade level, sources, etc. You don't need to attach a physical one to your project.
+      id: id-card
+    - question: Is it ok if I just glue black paper for my matting?
+      answer: That works! Note that you don't need to mat your artwork if it's on hard foam board or canvas. Some projects like Greeting Card also don't require matting.
+      id: matting
+    - question: Do I put my grade level or my Latin level?
+      answer: Put your grade level. Graphic Arts is judged based on grade level, instead of Latin level.
   ca:
     - question: Are all Creative Arts events in person?
       answer: All are in person with the exception of Costume Contest, which is virtual with a deadline of Nov. 7.
