@@ -1,10 +1,4 @@
 upcoming_events:
-  - name: General Convention Meeting
-    date: Oct. 28, 2021 (8B)
-    loc: Lecture Hall
-  - name: Spirit Prop Meeting
-    date: Nov. 5, 2021 (8A & 8B)
-    loc: Rm 62 (Conklin)
   - name: Spirit Prop Meeting Makeup (juniors only)
     date: Nov. 8, 2021 (JLC)
     loc: Rm 62 (Conklin)
@@ -16,6 +10,12 @@ upcoming_events:
     loc: Greater Richmond Convention Center
 
 past_events:
+  - name: Spirit Prop Meeting
+    date: Nov. 5, 2021
+    link: none
+  - name: General Convention Meeting
+    date: Oct. 29, 2021
+    link: none
   - name: Myth Pumpkins
     date: Oct. 27, 2021
     link: none
