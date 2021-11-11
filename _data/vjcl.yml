@@ -45,16 +45,18 @@ faq:
       id: prepare
   misc:
     - question: Is That's Entertainment! happening? Where will it be held?
-      answer: It will be virtual on Nov. 15, but registrations will happen on the morning of Nov. 14
+      answer: It will be virtual on Nov. 15, and auditions are due by 11:59 P.M. on Nov. 11.
       id: ta
+    - question: Am I required to attend a discamus?
+      answer: Yes, but we promise it's a lot of fun!
 
 links:
   - name: Convention Packet
     description: The full convention packet is available for viewing.
     url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit?usp=sharing
-  - name: Tentative Convention Schedule
-    description: Want to know how your day will be structured at convention? An expected schedule has been curated by the VJCL.
-    url: https://docs.google.com/document/d/1zLJwdtgCYwmLcWRh_0H1wE6YF_kBQKHpE1lTUSzhlPc/edit#heading=h.fwo3ezpfkioo
+  - name: 2021 Program
+    description: Want to know how your day will be structured at convention? A digital version of the convention program is now available.
+    url: https://docs.google.com/document/d/1fswd_gdzpt7xWZJ9vktF41DhQmGHCE0eb3Qs9gTxXus/edit
   - name: Academics Info
     description: This year, academics will be back in full force! Please be sure to bring your own clipboard and pencils for testing sessions.
     url: https://docs.google.com/document/d/1UarJtgLYphAgEYlJdmmelgn5OxP-rbFE2ya6wuayMIM/edit
@@ -87,3 +89,7 @@ links:
   - name: TJ Study Guides
     description: A list of Certamen / Academic Exam study materials have been compiled by the Reges.
     url: https://drive.google.com/drive/folders/1AUorFXGx8boE2PelJW62yKluCYEx32MA?usp=sharing
+  - name: That's Entertainment
+    deadline: November 11, 11:59 PM
+    description: Want to show off your talent? Send in a video of it to audition for the glorious JCL talent show.
+    url: https://docs.google.com/document/d/1DxZ7Z1qcx6r0vCn40Ura8AOd89DyR10lxmmH5OHQCek/edit
