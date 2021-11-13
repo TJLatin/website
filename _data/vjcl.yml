@@ -39,6 +39,9 @@ faq:
     - question: Do we register for Creative Arts in person with the stickers they'll give us?
       answer: Our current knowledge says that you are correct. However, this may change, but your tribune will let you know if it does.
       id: registration
+    - question: What do we wear for Creative Arts????
+      answer: You're not supposed to have anything mentioning that you go to TJ showing, so you can either take off your TJ Latin shirt, turn it inside out, or put something over it.
+      id: wear
   acad:
     - question: How do I prepare for tests?
       answer: You can attend TJ Lunch Lectures, held by the Reges, or you can look at the various study resources the Reges and VJCL have provided. They're linked below in the Important Links section.
