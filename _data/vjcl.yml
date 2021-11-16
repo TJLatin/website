@@ -32,6 +32,7 @@ faq:
       id: matting
     - question: Do I put my grade level or my Latin level?
       answer: Put your grade level. Graphic Arts is judged based on grade level, instead of Latin level.
+      id: level
   ca:
     - question: Are all Creative Arts events in person?
       answer: All are in person with the exception of Costume Contest, which is virtual with a deadline of Nov. 7.
@@ -48,10 +49,11 @@ faq:
       id: prepare
   misc:
     - question: Is That's Entertainment! happening? Where will it be held?
-      answer: It will be virtual on Nov. 15, and auditions are due by 11:59 P.M. on Nov. 11.
+      answer: That's Entertainment! is being postponed due to a lack of submissions. If we receive more information, we will update this FAQ.
       id: ta
     - question: Am I required to attend a discamus?
       answer: Yes, but we promise it's a lot of fun!
+      id: discamus
 
 links:
   - name: Convention Packet
