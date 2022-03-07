@@ -1,7 +1,4 @@
 upcoming_events:
-  - name: NJCL Vocab Exam
-    date: Feb. 23, 2022 (8A or 8B)
-    loc: Rm 62/64
   - name: NJCL Hellenic History/NGE
     date: Mar. 9, 2022 (8B)
     loc: Rm 62/64
@@ -10,11 +7,17 @@ upcoming_events:
     loc: Rm 62/64
   - name: NLE
     date: Mar. 17 (15 for Latin V), 2022
-    loc: none
+    loc: Cafeteria, Rm 62/64
   - name: Medusa Mythology Exam
     date: Mar. 30, 2022 (8A or 8B)
     loc: Rm 62/64
 past_events:
+  - name: TJ Certamen
+    date: Mar. 5, 2022
+    link: https://drive.google.com/drive/folders/1_DlCG43fkS5TzQlshMNv8b4DGGTSvPYx?usp=sharing
+  - name: NJCL Vocab Exam
+    date: Feb. 23, 2022
+    link: none
   - name: Lupercalia
     date: Feb. 11, 2022
     link: none
