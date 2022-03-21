@@ -1,17 +1,20 @@
 upcoming_events:
-  - name: NJCL Hellenic History/NGE
-    date: Mar. 9, 2022 (8B)
-    loc: Rm 62/64
-  - name: CAV
-    date: Mar. 11, 2022 (8A and 8B)
-    loc: Rm 62/64
-  - name: NLE
-    date: Mar. 17 (15 for Latin V), 2022
-    loc: Cafeteria, Rm 62/64
   - name: Medusa Mythology Exam
     date: Mar. 30, 2022 (8A or 8B)
     loc: Rm 62/64
 past_events:
+  - name: NLE
+    date: Mar. 17, 2022
+    link: none
+  - name: Ides of March
+    date: Mar. 15, 2022
+    link: none
+  - name: CAV
+    date: Mar. 11, 2022
+    link: none
+  - name: National Hellenic Civilization/Greek Exams
+    date: Mar. 9, 2022
+    link: none
   - name: TJ Certamen
     date: Mar. 5, 2022
     link: https://drive.google.com/drive/folders/1_DlCG43fkS5TzQlshMNv8b4DGGTSvPYx?usp=sharing
