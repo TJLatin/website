@@ -15,11 +15,13 @@
         <h2>Past Events</h2>
         <ul>
             {% for event in site.data.events.past_events %}
-            {% if event.link == "none" %}
-            <li>{{ event.name }}, {{ event.date }}</li>
+                {% if event.link == "none" %}
+                <li>{{ event.name }}, {{ event.date }}</li>
+                {% else %}
+                <li><a href="{{ event.link }}" target="_blank">{{ event.name }}</a>, {{ event.date }}</li>
+                {% endif %}
             {% else %}
-            <li><a href="{{ event.link }}" target="_blank">{{ event.name }}</a>, {{ event.date }}</li>
-            {% endif %}
+            <li>No events available.</li>
             {% endfor %}
         </ul>
     </div>
