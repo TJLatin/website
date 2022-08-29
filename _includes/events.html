@@ -4,9 +4,9 @@
         <ul>
             {% for event in site.data.events.upcoming_events %}
                 {% if event.loc == "none" %}
-                <li>{{ event.name }}, {{event.date}}</li>
+                <li>{{ event.name }}, {{event.date}}</li><p></p>
                 {% else %}
-                <li>{{ event.name }}, {{ event.date }}, {{ event.loc }}</li>
+                <li>{{ event.name }}, {{ event.date }}, {{ event.loc }}</li><p></p>
                 {% endif %}
             {% else %}
             <li>No events available.</li>
@@ -16,9 +16,9 @@
         <ul>
             {% for event in site.data.events.past_events %}
                 {% if event.link == "none" %}
-                <li>{{ event.name }}, {{ event.date }}</li>
+                <li>{{ event.name }}, {{ event.date }}</li><p></p>
                 {% else %}
-                <li><a href="{{ event.link }}" target="_blank">{{ event.name }}</a>, {{ event.date }}</li>
+                <li><a href="{{ event.link }}" target="_blank">{{ event.name }}</a>, {{ event.date }}</li><p></p>
                 {% endif %}
             {% else %}
             <li>No events available.</li>
