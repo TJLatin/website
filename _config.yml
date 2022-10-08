@@ -11,26 +11,27 @@ plugins:
 collections:
   officers:
     order:
-      - michelle-ru.md
-      - abi-sastry.md
       - clarissa-ding.md
       - lauren-fisher.md
-      - patrick-gaucher.md
+      - nivika-gandhi.md
+      - laura-guo.md
       - alex-yung.md
-      - prithvi-seri.md
-      - shruti-shah.md
-      - daphne-feigin.md
-      - rae-trainer.md
-      - ryan-dwyer.md
-      - anand-advani.md
+      - rex-allard.md
+      - nina-garces.md
+      - cierra-min.md
+      - avery-park.md
+      - ellie-chen.md
       - gabriel-ascoli.md
-      - rhea-goswami.md
-      - alison-song.md
-      - tarini-basireddy.md
-      - anna-hsu.md
+      - amit-sai-erraguntla.md
+      - lucy-watts.md
+      - melissa-brown.md
+      - saranya-gadwala.md
+      - vivian-xue.md
       - derek-li.md
-      - jennifer-hunsinger.md
-      - william-mclaughlin.md
+      - daphne-feigin.md
+      - patrick-gaucher.md
+      - prithvi-seri.md
+      - tarini-basireddy.md
     output: true
 
 defaults:

@@ -3,7 +3,7 @@ name: Gabriel Ascoli
 latin_name: Chrysaor
 photo: gabriel_ascoli.jpg
 office: Rex Certaminis
-level: AP Latin
+level: Latin 5
 email: gabriel.ascoli@gmail.com
 year: 2023
 word: appropinquo

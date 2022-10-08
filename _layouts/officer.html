@@ -7,9 +7,16 @@ layout: default
         <div>
             <div class="officer-flex">
                 <div class="officer-text">
-                    <h1>{{ page.name }} ({{ page.latin_name }})</h1>
+                    {% if page.latin_name %}
+                        <h1>{{ page.name }} ({{ page.latin_name }})</h1>
+                    {% else %}
+                        <h1>{{ page.name }}</h1>
+                    {% endif %}
                     <h2>{{ page.office }}</h2>
                     <h3>{{ page.level }}, Class of {{ page.year }}</h3>
+                    {% if page.word %}
+                        <h4>Favorite Latin word: {{page.word}}</h4>
+                    {% endif %}
                     <div class="list">
                         <a href="mailto:{{ page.email }}"><img class="socials"
                                 src="{{ site.baseurl }}/assets/images/svg/mail.svg" height="48px" width="auto"
