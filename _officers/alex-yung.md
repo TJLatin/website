@@ -1,7 +1,7 @@
 ---
 name: Alex Yung
 latin_name: Aegeus
-photo: default.jpg
+photo: alex_yung.jpg
 office: Praetor Magnus
 level: AP Latin
 email: superay190@gmail.com
