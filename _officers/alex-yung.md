@@ -10,6 +10,4 @@ word: edo
 facebook: https://www.facebook.com/EatSumRice
 ---
 
-Hello! I'm Alex "Aegeus" Yung, and I have been a part of Latin ever since Latin 1 with Magistra Conklin. I am one of the Praetores Magni of the Latin Honor Society for the school year of 2022-2023.
-
-Other than Latin, I also enjoy eating various types of food, coding (mostly in Python currently), playing soccer, and playing card games (such as Pokemon and bridge).
+Hello! I'm Aegeus and I really look forward to convention this year, especially since it is two days now. I also look forward to diving into all the Latin activities like Lupercalia, the Ides of March, and Myth Pumpkins with my friends. Outside of Latin, I like to type frantically on my keyboard and build things like snack shelves and parallel dip bars.
