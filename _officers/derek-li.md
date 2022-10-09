@@ -1,7 +1,7 @@
 ---
 name: Derek Li
 latin_name: Ovidius
-photo: derek_li.jpg
+photo: default.jpg
 office: Dominus Telae
 level: AP Latin
 email: derekl52738@gmail.com
