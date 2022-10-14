@@ -1,6 +1,6 @@
 ---
 name: Nina Garces
-latin_name: 
+latin_name: Maia
 photo: default.jpg
 office: Tribune
 level: AP Latin

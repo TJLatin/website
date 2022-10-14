@@ -1,6 +1,6 @@
 ---
 name: Cierra Min
-latin_name: 
+latin_name: Sulpicia
 photo: default.jpg
 office: Tribune
 level: Latin 3

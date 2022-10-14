@@ -1,6 +1,6 @@
 ---
 name: Saranya Gadwala
-latin_name: 
+latin_name: Selene
 photo: default.jpg
 office: Artifex
 level: AP Latin

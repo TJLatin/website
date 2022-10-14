@@ -1,6 +1,6 @@
 ---
-name: Amit Sai Erraguntla
-latin_name: 
+name: Amit Erraguntla
+latin_name: Cataline
 photo: default.jpg
 office: Rex Certaminis
 level: Latin 5
