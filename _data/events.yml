@@ -1,18 +1,21 @@
 upcoming_events:
-- name: Vergil's Birthday
-  date: Oct. 15, 2022
-  loc: none
-- name: VJCL Convention Meeting
-  date: Oct. 19, 2022
+- name: Convention Spirit Prop Meeting
+  date: Nov. 2, 2022 (8A or 8B)
   loc: Rm 62/64
-- name: Myth Pumpkins
-  date: Oct. 26, 2022 (8A & 8B)
-  loc: Rm 62/64
+- name: Convention Spirit Cheer Meeting
+  date: Nov. 9, 2022 (8A)
+  loc: Amphitheatre Courtyard
 - name: VJCL Convention
   date: Nov. 20-21, 2022
   loc: Greater Richmond Convention Center <a href="/latin/documents/vjcl.html">(More information here)</a>
 
 past_events:
+- name: Myth Pumpkins
+  date: Oct. 26, 2022
+  link: none
+- name: Vergil's Birthday
+  date: Oct. 15, 2022
+  link: none
 - name: Convention Interest Meeting
   date: Sep. 30, 2022
   link: none
