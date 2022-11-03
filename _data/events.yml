@@ -1,7 +1,4 @@
 upcoming_events:
-- name: Convention Spirit Prop Meeting
-  date: Nov. 2, 2022 (8A or 8B)
-  loc: Rm 62/64
 - name: Convention Spirit Cheer Meeting
   date: Nov. 9, 2022 (8A)
   loc: Amphitheatre Courtyard
@@ -10,18 +7,21 @@ upcoming_events:
   loc: Greater Richmond Convention Center <a href="/latin/documents/vjcl.html">(More information here)</a>
 
 past_events:
+- name: Convention Prop Making
+  date: Nov. 2, 2022
+  link: https://drive.google.com/drive/folders/1-Snb4oq68yGa_No4RPlwYvTCQdoV-EjS?usp=sharing
 - name: Myth Pumpkins
   date: Oct. 26, 2022
-  link: none
+  link: https://drive.google.com/drive/folders/1-KqGMTlV7fQ-PX4Jbxuj_5CYMU8V9j0W?usp=sharing
 - name: Vergil's Birthday
   date: Oct. 15, 2022
-  link: none
+  link: https://drive.google.com/drive/folders/1lURwTCkwnWkJPpFLwuQz_InIWB4YKF6a?usp=sharing
 - name: Convention Interest Meeting
   date: Sep. 30, 2022
   link: none
 - name: Ice Cream Social
   date: Sep. 16, 2022
-  link: none
+  link: https://drive.google.com/drive/folders/1_qW2__DvxMbAKZH4mXzrAZz9vzLoKTxN?usp=sharing
 - name: Certamen Interest Meeting
   date: Sep. 14, 2022
   link: none
