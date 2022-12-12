@@ -1,23 +1,30 @@
 upcoming_events:
-- name: Etymology/Roman Civ Exams
-  date: Dec. 7, 2022 (8A or 8B)
-  loc: Rm 62/64
-- name: Latin Buddy Holiday Party
-  date: Dec. 9, 2022 (8A)
-  loc: Rm 62/64
-- name: Hayfield Street Certamen
-  date: Dec. 10, 2022
-  loc: Hayfield Secondary School
-- name: Latin T-Shirt Spirit Day
-  date: Dec. 12, 2022
-  loc: none
 - name: INite Interest Meeting
   date: Dec. 14, 2022 (8A)
+  loc: Rm 62/64
 - name: Saturnalia
   date: Dec. 15/16, 2022
   loc: Rm 62/64
+- name: Convention Roundup
+  date: Jan. 6, 2023 (8A or 8B)
+  loc: Rm 62/64
+- name: LHS Induction Ceremony
+  date: Jan. 20, 2023 (8B)
+  loc: Rm 62/64
 
 past_events:
+- name: Latin T-Shirt Spirit Day/Club Pictures
+  date: Dec. 12, 2022
+  link: none
+- name: Hayfield Street Certamen
+  date: Dec. 10, 2022
+  link: none
+- name: Latin Buddy Holiday Party
+  date: Dec. 9, 2022
+  link: none
+- name: Etymology/Roman Civ Exams
+  date: Dec. 7, 2022
+  link: none
 - name: VJCL Convention
   date: Nov. 20-21, 2022
   link: https://drive.google.com/drive/folders/1-WdWpmOBm9NLIu8_KYP52b5LB4o5qnTn?usp=sharing
