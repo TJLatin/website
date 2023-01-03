@@ -1,10 +1,4 @@
 upcoming_events:
-- name: INite Interest Meeting
-  date: Dec. 14, 2022 (8A)
-  loc: Rm 62/64
-- name: Saturnalia
-  date: Dec. 15/16, 2022
-  loc: Rm 62/64
 - name: Convention Roundup
   date: Jan. 6, 2023 (8A or 8B)
   loc: Rm 62/64
@@ -13,6 +7,12 @@ upcoming_events:
   loc: Rm 62/64
 
 past_events:
+- name: Saturnalia
+  date: Dec. 15/16, 2022
+  link: none
+- name: INite Interest Meeting
+  date: Dec. 14, 2022
+  link: none
 - name: Latin T-Shirt Spirit Day/Club Pictures
   date: Dec. 12, 2022
   link: none
