@@ -1,5 +1,8 @@
 upcoming_certamina:
-
+- name: Flint Hill Certamen
+  date: Jan. 7, 2023
+- name: TJ Certamen
+  date: Feb. 25, 2023
 past_certamina:
 - name: Hayfield Street Certamen
   date: Dec. 10, 2022
