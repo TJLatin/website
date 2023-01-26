@@ -1,12 +1,15 @@
 upcoming_events:
-- name: LHS Induction Ceremony
-  date: Jan. 20, 2023 (8B)
+- name: Lupercalia
+  date: Feb. 17, 2023 (8A & 8B)
   loc: Rm 62/64
 - name: TJ Certamen
   date: Feb. 25, 2023
   loc: TJHSST
 
 past_events:
+- name: LHS Induction Ceremony
+  date: Jan. 20, 2023
+  link: none
 - name: Convention Roundup
   date: Jan. 6, 2023
   link: none
