@@ -1,9 +1,12 @@
 upcoming_events:
-- name: TJ Certamen
-  date: Feb. 25, 2023
-  loc: TJHSST
+- name: Ides of March
+  date: Mar. 15, 2023
+  loc: none
 
 past_events:
+- name: TJ Certamen
+  date: Feb. 25, 2023
+  link: https://drive.google.com/drive/folders/1-Z-VGq3fR5OSZNbbj1AcjF4P6POykd-B?usp=sharing
 - name: Lupercalia
   date: Feb. 17, 2023
   link: none
