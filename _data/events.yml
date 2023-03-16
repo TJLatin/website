@@ -1,12 +1,15 @@
 upcoming_events:
-- name: Ides of March & NLE
-  date: Mar. 15, 2023
-  loc: none
 - name: iNite
   date: Mar. 30, 2023
   loc: NOVA Alexandria (Schlesinger Hall)
 
 past_events:
+- name: Ides of March
+  date: Mar. 15, 2023
+  link: https://drive.google.com/drive/folders/1-_bYG1f6Z5_lDku9cmHCDTN4ZiO9aIny?usp=share_link
+- name: NLE
+  date: Mar. 15, 2023
+  link: none
 - name: TJ Certamen
   date: Feb. 25, 2023
   link: https://drive.google.com/drive/folders/1-Z-VGq3fR5OSZNbbj1AcjF4P6POykd-B?usp=sharing
