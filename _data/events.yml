@@ -1,9 +1,12 @@
 upcoming_events:
-- name: iNite
-  date: Mar. 30, 2023
-  loc: NOVA Alexandria (Schlesinger Hall)
+- name: National Latin Convention
+  date: Jul. 21-28, 2023
+  loc: Emory University
 
 past_events:
+- name: iNite
+  date: Mar. 30, 2023
+  link: https://drive.google.com/file/d/106uV80HtptJqs5TUVEtzf7W42c9cPiXM/view?usp=drivesdk
 - name: Ides of March
   date: Mar. 15, 2023
   link: https://drive.google.com/drive/folders/1-_bYG1f6Z5_lDku9cmHCDTN4ZiO9aIny?usp=share_link
