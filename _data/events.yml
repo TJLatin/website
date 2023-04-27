@@ -1,12 +1,21 @@
 upcoming_events:
-- name: Rome's Birthday
-  date: Apr. 26, 2023 (8A or 8B)
-  loc: Rm 62/64, Planetarium Courtyard
+- name: Techstravaganza
+  date: May 13, 2023
+  loc: TJ
+- name: J-Day
+  date: May 26, 2023
+  loc: TJ
+- name: Latin Awards Ceremony
+  date: May 30, 2023
+  loc: TJ
 - name: National Latin Convention
   date: Jul. 21-28, 2023
   loc: Emory University
 
 past_events:
+- name: Rome's Birthday
+  date: Apr. 26, 2023
+  link: none
 - name: iNite
   date: Mar. 30, 2023
   link: https://drive.google.com/file/d/106uV80HtptJqs5TUVEtzf7W42c9cPiXM/view?usp=drivesdk
