@@ -1,0 +1,29 @@
+---
+title: Study Guides
+nav: /study.html
+---
+<div class="study">
+    <section class="hero light-background">
+        <div>
+            <h1 class="heading">Study Guides</h1>
+        </div>
+    </section>
+    <section class="light-background">
+        <div>
+            <p>Find studying resources here. If you have any study guides you want added or any resources on this page are incorrect or outdated, <a href="{{ site.baseurl}}/contact.html">let us know</a>!</p>
+        </div>
+        <div>
+            {% for level in site.data.levels %}
+                <div>
+                    <h3>{{level.year}}</h3>
+                    {% for study in site.data.study %}
+                        {% if study.level == level.year %}
+                            <p><a href="{{ study.url }}" target="_blank">{{ study.name }}</a></p>
+                        {% endif %}
+                    {% endfor %}
+                    <br>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+</div>
