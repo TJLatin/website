@@ -13,4 +13,4 @@ If you're interested in contributing to our site, including both content and cod
 For developers that have access to the Director site, after merging branches into master, open up the Director terminal and execute `node index.js` to run the Netlify downloader script for deployment. Please note that it may take a minute for Netlify to deploy the Jekyll site itself, so it may take a few minutes before you can execute the command in Director successfully.
 
 ## Credits
-Site maintained by Derek Li, TJ Latin Honor Society webmaster for 2022-2023.
+Site maintained by Anish Paspuleti & Sthavir Vinjamuri, TJ Latin Honor Society webmasters for 2023-2024.

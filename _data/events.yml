@@ -1,99 +1,125 @@
 upcoming_events:
-- name: J-Day
-  date: May 26, 2023
-  loc: TJ
-- name: Loquenda
-  date: May 31, 2023 (8B)
+- name: First Latin Buddy Party
+  date: Oct. 18, 2023
   loc: Rm 62/64
-- name: LHS Jr vs. Sr Ludi
-  date: Jun. 2, 2023 (8A & 8B)
-  loc: Practice Field
-- name: Awards Ceremony
-  date: Jun. 2, 2023
-  loc: Cafeteria
-- name: National Latin Convention
-  date: Jul. 21-28, 2023
-  loc: Emory University
+- name: Convention Meeting (Optional)
+  date: Oct. 20, 2023
+  loc: Rm 62/64
+- name: Myth Pumpkins
+  date: Oct. 25, 2023
+  loc: Rm 62/64
+
+# ***EVENTS FOR 2022-2023 SCHOOL YEAR***
+# - name: J-Day
+#   date: May 26, 2023
+#   loc: TJ
+# - name: Loquenda
+#   date: May 31, 2023 (8B)
+#   loc: Rm 62/64
+# - name: LHS Jr vs. Sr Ludi
+#   date: Jun. 2, 2023 (8A & 8B)
+#   loc: Practice Field
+# - name: Awards Ceremony
+#   date: Jun. 2, 2023
+#   loc: Cafeteria
+# - name: National Latin Convention
+#   date: Jul. 21-28, 2023
+#   loc: Emory University
 
 past_events:
-- name: Impromptu Art
-  date: May 17, 2023
-  link: none
-- name: Techstravaganza
-  date: May 13, 2023
-  link: none
-- name: Rome's Birthday
-  date: Apr. 26, 2023
-  link: none
-- name: iNite
-  date: Mar. 30, 2023
-  link: https://drive.google.com/file/d/106uV80HtptJqs5TUVEtzf7W42c9cPiXM/view?usp=drivesdk
-- name: Ides of March
-  date: Mar. 15, 2023
-  link: https://drive.google.com/drive/folders/1-_bYG1f6Z5_lDku9cmHCDTN4ZiO9aIny?usp=share_link
-- name: NLE
-  date: Mar. 15, 2023
-  link: none
-- name: TJ Certamen
-  date: Feb. 25, 2023
-  link: https://drive.google.com/drive/folders/1-Z-VGq3fR5OSZNbbj1AcjF4P6POykd-B?usp=sharing
-- name: Lupercalia
-  date: Feb. 17, 2023
-  link: none
-- name: NJCL Vocab/Hellenic Civ Exams
-  date: Feb. 10, 2023
-  link: none
-- name: LHS Induction Ceremony
-  date: Jan. 20, 2023
-  link: none
-- name: Convention Roundup
-  date: Jan. 6, 2023
-  link: none
-- name: Saturnalia
-  date: Dec. 15/16, 2022
-  link: none
-- name: INite Interest Meeting
-  date: Dec. 14, 2022
-  link: none
-- name: Latin T-Shirt Spirit Day/Club Pictures
-  date: Dec. 12, 2022
-  link: none
-- name: Hayfield Street Certamen
-  date: Dec. 10, 2022
-  link: none
-- name: Latin Buddy Holiday Party
-  date: Dec. 9, 2022
-  link: none
-- name: Etymology/Roman Civ Exams
-  date: Dec. 7, 2022
-  link: none
-- name: VJCL Convention
-  date: Nov. 20-21, 2022
-  link: https://drive.google.com/drive/folders/1-WdWpmOBm9NLIu8_KYP52b5LB4o5qnTn?usp=sharing
-- name: Final Convention Meeting
-  date: Nov. 18, 2022
-  link: none
-- name: Classical Greek and Roman Art Lecture
-  date: Nov. 9, 2022
-  link: none
-- name: Convention Spirit Cheer Meeting
-  date: Nov. 9, 2022
-  link: none
-- name: Convention Prop Making
-  date: Nov. 2, 2022
-  link: https://drive.google.com/drive/folders/1-Snb4oq68yGa_No4RPlwYvTCQdoV-EjS?usp=sharing
-- name: Myth Pumpkins
-  date: Oct. 26, 2022
-  link: https://drive.google.com/drive/folders/1-KqGMTlV7fQ-PX4Jbxuj_5CYMU8V9j0W?usp=sharing
-- name: Vergil's Birthday
-  date: Oct. 15, 2022
-  link: https://drive.google.com/drive/folders/1lURwTCkwnWkJPpFLwuQz_InIWB4YKF6a?usp=sharing
-- name: Convention Interest Meeting
-  date: Sep. 30, 2022
-  link: none
-- name: Ice Cream Social
-  date: Sep. 16, 2022
-  link: https://drive.google.com/drive/folders/1_qW2__DvxMbAKZH4mXzrAZz9vzLoKTxN?usp=sharing
-- name: Certamen Interest Meeting
-  date: Sep. 14, 2022
-  link: none
+ - name: LHS Officer Inductions
+   date: Oct. 4, 2023
+   link: none
+ - name: VJCL Convention Interest Meeting
+   date: Sep. 27, 2023
+   link: none
+ - name: Ice Cream Social
+   date: Sep. 15, 2023
+   link: none
+ - name: Certamen Interest Meeting
+   date: Sep. 8, 2023
+   link: none
+
+
+# ***EVENTS FOR 2022-2023 SCHOOL YEAR***
+# - name: Impromptu Art
+#   date: May 17, 2023
+#   link: none
+# - name: Techstravaganza
+#   date: May 13, 2023
+#   link: none
+# - name: Rome's Birthday
+#   date: Apr. 26, 2023
+#   link: none
+# - name: iNite
+#   date: Mar. 30, 2023
+#   link: https://drive.google.com/file/d/106uV80HtptJqs5TUVEtzf7W42c9cPiXM/view?usp=drivesdk
+# - name: Ides of March
+#   date: Mar. 15, 2023
+#   link: https://drive.google.com/drive/folders/1-_bYG1f6Z5_lDku9cmHCDTN4ZiO9aIny?usp=share_link
+# - name: NLE
+#   date: Mar. 15, 2023
+#   link: none
+# - name: TJ Certamen
+#   date: Feb. 25, 2023
+#   link: https://drive.google.com/drive/folders/1-Z-VGq3fR5OSZNbbj1AcjF4P6POykd-B?usp=sharing
+# - name: Lupercalia
+#   date: Feb. 17, 2023
+#   link: none
+# - name: NJCL Vocab/Hellenic Civ Exams
+#   date: Feb. 10, 2023
+#   link: none
+# - name: LHS Induction Ceremony
+#   date: Jan. 20, 2023
+#   link: none
+# - name: Convention Roundup
+#   date: Jan. 6, 2023
+#   link: none
+# - name: Saturnalia
+#   date: Dec. 15/16, 2022
+#   link: none
+# - name: INite Interest Meeting
+#   date: Dec. 14, 2022
+#   link: none
+# - name: Latin T-Shirt Spirit Day/Club Pictures
+#   date: Dec. 12, 2022
+#   link: none
+# - name: Hayfield Street Certamen
+#   date: Dec. 10, 2022
+#   link: none
+# - name: Latin Buddy Holiday Party
+#   date: Dec. 9, 2022
+#   link: none
+# - name: Etymology/Roman Civ Exams
+#   date: Dec. 7, 2022
+#   link: none
+# - name: VJCL Convention
+#   date: Nov. 20-21, 2022
+#   link: https://drive.google.com/drive/folders/1-WdWpmOBm9NLIu8_KYP52b5LB4o5qnTn?usp=sharing
+# - name: Final Convention Meeting
+#   date: Nov. 18, 2022
+#   link: none
+# - name: Classical Greek and Roman Art Lecture
+#   date: Nov. 9, 2022
+#   link: none
+# - name: Convention Spirit Cheer Meeting
+#   date: Nov. 9, 2022
+#   link: none
+# - name: Convention Prop Making
+#   date: Nov. 2, 2022
+#   link: https://drive.google.com/drive/folders/1-Snb4oq68yGa_No4RPlwYvTCQdoV-EjS?usp=sharing
+# - name: Myth Pumpkins
+#   date: Oct. 26, 2022
+#   link: https://drive.google.com/drive/folders/1-KqGMTlV7fQ-PX4Jbxuj_5CYMU8V9j0W?usp=sharing
+# - name: Vergil's Birthday
+#   date: Oct. 15, 2022
+#   link: https://drive.google.com/drive/folders/1lURwTCkwnWkJPpFLwuQz_InIWB4YKF6a?usp=sharing
+# - name: Convention Interest Meeting
+#   date: Sep. 30, 2022
+#   link: none
+# - name: Ice Cream Social
+#   date: Sep. 16, 2022
+#   link: https://drive.google.com/drive/folders/1_qW2__DvxMbAKZH4mXzrAZz9vzLoKTxN?usp=sharing
+# - name: Certamen Interest Meeting
+#   date: Sep. 14, 2022
+#   link: none
