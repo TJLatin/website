@@ -3,9 +3,9 @@ name: Alex Bakalov
 latin_name: Marius
 photo: Alex-Bakalov.jpg
 office: Rex Certamenis
-level: 
+level: AP Latin
 email: 
-year: 
+year: 2025
 word: 
 facebook: 
 ---
