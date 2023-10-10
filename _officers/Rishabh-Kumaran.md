@@ -5,7 +5,7 @@ photo: Rishabh-Kumaran.jpg
 office: Praetor Maximus
 level: 
 email: 
-year: 
+year: 2025
 word: 
 facebook: 
 ---

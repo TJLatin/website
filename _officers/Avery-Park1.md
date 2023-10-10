@@ -3,9 +3,9 @@ name: Avery Park
 latin_name: Caelia
 photo: Avery-Park.jpg
 office: Consul
-level: 2024
+level: 
 email: 
-year: 
+year: 2024
 word: 
 facebook: 
 ---
