@@ -1,7 +1,7 @@
 ---
 name: Cierra Min
 latin_name: Sulpicia
-photo: Cierra-Min.png
+photo: Cierra-Min.jpg
 office: Auctor
 level: AP Latin
 email: 
