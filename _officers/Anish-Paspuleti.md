@@ -1,6 +1,6 @@
 ---
 name: Anish Paspuleti
-latin_name: 
+latin_name: Pluto
 photo: Anish-Paspuleti.jpg
 office: Dominus Telae
 level: Latin 5
