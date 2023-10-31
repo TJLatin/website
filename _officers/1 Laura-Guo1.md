@@ -4,7 +4,7 @@ latin_name: Diana
 photo: Laura Guo.jpg
 office: Consul
 level: Latin 5
-email: 
+email: 1555229@fcpsschools.net
 year: 2024
 word: meliora
 facebook: 

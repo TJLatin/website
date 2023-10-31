@@ -4,7 +4,7 @@ latin_name: Cincinnatus
 photo: Sthavir-Vinjamuri.jpg
 office: Junior Dominus Telae
 level: Latin 3
-email: 
+email: 1880341@fcpsschools.net
 year: 2026
 word: spelunca
 facebook: 

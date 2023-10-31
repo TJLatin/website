@@ -4,7 +4,7 @@ latin_name: Caelia
 photo: Avery-Park.jpg
 office: Consul
 level: Latin 5
-email: 
+email: 1822999@fcpsschools.net
 year: 2024
 word: bibimini
 facebook: 
