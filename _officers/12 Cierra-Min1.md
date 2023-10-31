@@ -10,4 +10,3 @@ word:
 facebook: 
 ---
 
-Notes necessary

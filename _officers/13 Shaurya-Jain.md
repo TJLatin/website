@@ -3,11 +3,10 @@ name: Shaurya Jain
 latin_name: 
 photo: Shaurya-Jain.jpg
 office: Censor
-level: 
+level: Latin 5 
 email: 
-year: 
+year: 2025
 word: 
 facebook: 
 ---
 
-Notes necessary
