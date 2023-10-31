@@ -4,7 +4,7 @@ latin_name:
 photo: Rishabh-Kumaran.jpg
 office: Praetor Maximus
 level: AP 
-email: 
+email: 1851559@fcpsschools.net 
 year: 2025
 word: camelopardalis
 facebook: 

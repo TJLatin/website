@@ -4,7 +4,7 @@ latin_name: Thalia
 photo: Lucy-Watts.jpg
 office: Regina Certaminis
 level: Latin 5
-email: 
+email: 1823003@fcpsschools.net 
 year: 2024
 word: sidera
 facebook: 

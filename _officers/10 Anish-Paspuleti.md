@@ -4,7 +4,7 @@ latin_name: Pluto
 photo: Anish-Paspuleti.jpg
 office: Dominus Telae
 level: Latin 5
-email: 
+email: 1554554@fcpsschools.net
 year: 2024
 word: libellus
 facebook: 
