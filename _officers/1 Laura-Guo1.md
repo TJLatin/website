@@ -1,7 +1,7 @@
 ---
 name: Laura Guo
 latin_name: Diana
-photo: Laura-Guo.jpg
+photo: Laura Guo.jpg
 office: Consul
 level: Latin 5
 email: 
