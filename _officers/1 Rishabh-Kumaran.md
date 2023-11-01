@@ -1,7 +1,7 @@
 ---
 name: Rishabh Kumaran
 latin_name: 
-photo: Rishabh-Kumaran.jpg
+photo: 
 office: Praetor Maximus
 level: AP 
 email: 1851559@fcpsschools.net 

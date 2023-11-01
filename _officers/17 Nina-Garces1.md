@@ -1,7 +1,7 @@
 ---
 name: Nina Garces
 latin_name: Maia
-photo: Nina-Garces.jpg
+photo: 
 office: Ex-officio
 level: Latin 5
 email: 1628005@fcpsschools.net

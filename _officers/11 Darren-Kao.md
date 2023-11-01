@@ -1,7 +1,7 @@
 ---
 name: Darren Kao
 latin_name: 
-photo: Darren-Kao.jpg
+photo: 
 office: Tribune
 level: Latin 5
 email: 

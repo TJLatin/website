@@ -1,7 +1,7 @@
 ---
 name: Laura Guo
 latin_name: Diana
-photo: Laura Guo.jpg
+photo: 
 office: Consul
 level: Latin 5
 email: 1555229@fcpsschools.net

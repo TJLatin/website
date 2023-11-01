@@ -1,7 +1,7 @@
 ---
 name: James Kennedy
 latin_name: 
-photo: James-Kennedy.jpg
+photo: 
 office: Praetor Magnus
 level: AP 
 email: 1623353@fcpsschools.net

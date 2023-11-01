@@ -1,7 +1,7 @@
 ---
 name: Anish Paspuleti
 latin_name: Pluto
-photo: Anish-Paspuleti.jpg
+photo: 
 office: Dominus Telae
 level: Latin 5
 email: 1554554@fcpsschools.net

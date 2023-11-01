@@ -1,7 +1,7 @@
 ---
 name: Avery Park
 latin_name: Caelia
-photo: Avery-Park.jpg
+photo: 
 office: Consul
 level: Latin 5
 email: 1822999@fcpsschools.net

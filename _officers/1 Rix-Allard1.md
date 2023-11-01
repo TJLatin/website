@@ -1,7 +1,7 @@
 ---
 name: Rex Allard
 latin_name: Rex
-photo: Rex-Allard.jpg
+photo: 
 office: Praetor Magnus
 level: AP 
 email: 1561935@fcpsschools.net

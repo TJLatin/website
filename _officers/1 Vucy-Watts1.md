@@ -1,7 +1,7 @@
 ---
 name: Lucy Watts
 latin_name: Thalia
-photo: Lucy-Watts.jpg
+photo: 
 office: Regina Certaminis
 level: Latin 5
 email: 1823003@fcpsschools.net 

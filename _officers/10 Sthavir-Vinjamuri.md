@@ -1,7 +1,7 @@
 ---
 name: Sthavir Vinjamuri
 latin_name: Cincinnatus
-photo: Sthavir-Vinjamuri.jpg
+photo: 
 office: Junior Dominus Telae
 level: Latin 3
 email: 1880341@fcpsschools.net

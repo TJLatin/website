@@ -1,7 +1,7 @@
 ---
 name: Nivika Gandhi
 latin_name: Sappho
-photo: Nivika-Gandhi.jpg
+photo: 
 office: Consul
 level: Latin 5
 email: 1822853@fcpsschools.net

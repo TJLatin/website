@@ -1,7 +1,7 @@
 ---
 name: Shaurya Jain
 latin_name: 
-photo: Shaurya-Jain.jpg
+photo: 
 office: Censor
 level: Latin 5 
 email: 1852810@fcpsschools.net
