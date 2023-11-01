@@ -3,10 +3,11 @@ name: Darren Kao
 latin_name: 
 photo: Darren-Kao.jpg
 office: Tribune
-level: Latin 5
+level: 
 email: 
-year: 2024
+year: 
 word: 
 facebook: 
 ---
 
+Notes necessary

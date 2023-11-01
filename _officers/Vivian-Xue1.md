@@ -4,9 +4,10 @@ latin_name: Delia
 photo: Vivian-Xue.jpg
 office: Artifex
 level: AP Latin
-email: 1583486@fcpsschools.net 
+email: 
 year: 2025
 word: 
 facebook: 
 ---
 
+Notes necessary
