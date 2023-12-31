@@ -1,7 +1,7 @@
 ---
 name: Ojas Chaudhary
 latin_name: Sulla
-photo: 
+photo: Ojas-Chaudhary.jpg
 office: Rex Certaminis
 level: Latin 5
 email: 1823002@fcpsschools.net

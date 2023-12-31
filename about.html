@@ -35,7 +35,8 @@ nav: /about.html
                 <div class="card photo-card">
                     <a class="card-link" href="{{ site.baseurl }}{{ officer.url }}">
                         <img src="{{ site.baseurl }}/assets/images/officers/{{ officer.photo }}"
-                            alt="{{ officer.office }} {{ officer.name }}">
+                            alt="{{ officer.office }} {{ officer.name }}"
+                            style="width: 100%; height: auto; object-fit: cover; max-height: 275px;">
                         <div class="card-body">
                             <h3 class="card-title">{{ officer.name }}</h3>
                             <span>{{ officer.office }}</span>
