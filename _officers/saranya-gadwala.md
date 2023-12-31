@@ -1,7 +1,7 @@
 ---
 name: Saranya Gadwala
 latin_name: Selene
-photo: 
+photo: Saranya-Gadwala.jpg
 office: Artifex
 level: Latin 5
 email: 1600864@fcpsschools.net 

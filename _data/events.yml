@@ -1,13 +1,9 @@
 upcoming_events:
-- name: First Latin Buddy Party
-  date: Oct. 18, 2023
-  loc: Rm 62/64
-- name: Convention Meeting (Optional)
-  date: Oct. 20, 2023
-  loc: Rm 62/64
-- name: Myth Pumpkins
-  date: Oct. 25, 2023
-  loc: Rm 62/64
+# - name: First Latin Buddy Party
+#   date: Oct. 18, 2023
+#   loc: Rm 62/64
+
+
 
 # ***EVENTS FOR 2022-2023 SCHOOL YEAR***
 # - name: J-Day
@@ -27,16 +23,46 @@ upcoming_events:
 #   loc: Emory University
 
 past_events:
- - name: LHS Officer Inductions
+ - name: ✱ Latin Inite Interest Meeting
+   date: Dec. 13, 2023
+   link: none
+ - name: ✱ First Bakesake & Buddy Party
+   date: Dec. 8, 2023
+   link: none
+ - name: ✱ NJCL Roman Civ and Etymology Exam
+   date: Dec. 6, 2023
+   link: none
+ - name: ✱ Final Convention Meeting
+   date: Nov. 17, 2023
+   link: none
+ - name: ✱ Convention Spirit Meeting
+   date: Nov. 15, 2023
+   link: none
+ - name: ✱ Convention Prop Making Meeting
+   date: Nov. 10, 2023
+   link: none
+ - name: ✱ Convention Spirit Meeting
+   date: Nov. 3, 2023
+   link: none
+ - name: ✱ Myth Pumpkins
+   date: Oct. 25, 2023
+   link: none
+ - name: ✱ Convention Meeting (Optional)
+   date: Oct. 20, 2023
+   link: none
+ - name: ✱ First Latin Buddy Party
+   date: Oct. 18, 2023
+   link: none
+ - name: ✱ LHS Officer Inductions
    date: Oct. 4, 2023
    link: none
- - name: VJCL Convention Interest Meeting
+ - name: ✱ VJCL Convention Interest Meeting
    date: Sep. 27, 2023
    link: none
- - name: Ice Cream Social
+ - name: ✱ Ice Cream Social
    date: Sep. 15, 2023
    link: none
- - name: Certamen Interest Meeting
+ - name: ✱ Certamen Interest Meeting
    date: Sep. 8, 2023
    link: none
 
