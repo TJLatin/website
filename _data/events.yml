@@ -1,19 +1,29 @@
 upcoming_events:
-- name: ✱ NJCL Vocab & Hellenic Exam 
-  date: Mar. 1, 2024
-  loc: Rm 62/64
-- name: ✱ CAV Exam 
-  date: Mar. 15, 2024
-  loc: Rm 62/64
-- name: ✱ Ides of March! 
-  date: Mar. 15, 2024
-  loc: none
-- name: ✱ TJ Certamen 
-  date: Mar. 16, 2024
-  loc: none
+ - name: ✱ Medusa Mythology Exam 
+   date: Apr. 5, 2024
+   loc: none
+ - name: ✱ Inite Roundup 
+   date: Apr. 17, 2024
+   loc: none
+ - name: ✱ Romes Birthday 
+   date: Apr. 19, 2024
+   loc: none
+
 
 
 past_events:
+ - name: ✱ TJ Certamen 
+   date: Mar. 16, 2024
+   link: none
+ - name: ✱ Ides of March! 
+   date: Mar. 15, 2024
+   link: none
+ - name: ✱ CAV Exam 
+   date: Mar. 15, 2024
+   link: none
+ - name: ✱ NJCL Vocab & Hellenic Exam 
+   date: Mar. 1, 2024
+   link: none
  - name: ✱ LHS Induction Ceremony
    date: Feb. 21, 2024
    link: none
