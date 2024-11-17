@@ -1,0 +1,32 @@
+---
+layout: blog
+title: Scribe
+nav: /scribe.html
+---
+<div class="news">
+    <section class="hero light-background">
+        <div>
+            <h1 class="heading">News</h1>
+        </div>
+    </section>
+    <section class="light-background">
+        <div>
+            <p>What has TJ Latin been up to recently, and what's about to happen here with us? You can find out here! We
+                accept blog submissions from all TJ Latin members, so if you'd like to contribute, <a
+                    href="{{ site.baseurl}}/contact.html">let us know</a>! See our paper copies below.</p>
+            <div class="card-container">
+                {% for scribe in site.data.scribe %}
+                <div class="card">
+                    <a href="{{ scribe.url }}" target="_blank">
+                        <div class="card-body">
+                            <h3 class="card-title">{{ scribe.name }}</h3>
+                        </div>
+                    </a>
+                </div>
+                {% else %}
+                <p>Scribe coming soon!</p>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</div>

@@ -2,10 +2,10 @@
   url: /
 - name: About
   url: /about.html
-- name: News
-  url: /news.html
-- name: Documents
-  url: /documents.html
+- name: Scribe
+  url: /scribe.html
+- name: Events
+  url: /events.html
 - name: Certamen 
   url: /certamen.html
 - name: Study Guides
